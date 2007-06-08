@@ -1,0 +1,188 @@
+<CRANTaskView>
+
+<name>Cluster</name>
+<topic>Cluster Analysis &amp; Finite Mixture Models</topic>
+<maintainer>Friedrich Leisch and Bettina Gruen</maintainer>
+  
+<info> This CRAN Task View contains a list of packages that can be
+used for finding groups in data and modelling unobserved
+cross-sectional heterogeneity. Many packages provide functionality for
+more than one of the topics listed below, the section headings are
+mainly meant as quick starting points rather than an ultimate
+categorization. Except for packages stats and cluster (which ship with
+base R and hence are part of every R installation), each package is
+listed only once.
+
+<p>
+<strong>Hierarchical Clustering:</strong>
+<ul>
+  <li>
+  Functions <tt>hclust()</tt> from package stats and
+  <tt>agnes()</tt> from <pkg>cluster</pkg> are the
+  primary functions for agglomerative hierarchical clustering,
+  function <tt>diana()</tt> can be
+  used for divisive hierarchical clustering. 
+  </li>
+  <li>Function <tt>dendrogram()</tt> from stats and associated methods can
+  be used for improved visualization for cluster dendrograms.
+  </li>
+  <li><pkg>pvclust</pkg> is a package for assessing the uncertainty in
+  hierarchical cluster analysis. It provides approximately
+  unbiased p-values as well as bootstrap p-values.</li>
+  <li><pkg>hybridHclust</pkg> implements hybrid hierarchical
+  clustering via mutual clusters.</li>
+</ul>
+</p>
+  
+<p><strong>Partitioning Clustering:</strong>
+<ul>
+  <li>Function <tt>kmeans()</tt> from package stats provides
+  several algorithms
+  for computing partitions with respect to
+  Euclidean distance.</li>
+  <li>Function <tt>pam()</tt> from package <pkg>cluster</pkg> implements
+  partitioning around medoids and can work with arbitrary
+  distances. Function <tt>clara()</tt> is a
+  wrapper to <tt>pam()</tt> for larger data sets. Silhouette plots
+  and spanning ellipses can be used for visualization.
+  </li>
+  <li>Package <pkg>flexclust</pkg> provides k-centroid cluster
+  algorithms for arbitrary distance measures, hard competitive
+  learning, neural gas and QT clustering. Neighborhood graphs and
+  image plots of partitions are available for visualization.
+  </li>
+  <li>Package <pkg>trimcluster</pkg> provides trimmed k-means
+  clustering.</li>
+</ul> </p>
+  
+<p><strong>Model-based Clustering:</strong>
+<ul>
+  <li>Package <pkg>mclust</pkg> (and for backward compatibility
+  <pkg>mclust02</pkg>) fits mixtures of Gaussians using the EM
+  algorithm. It allows fine control of volume and shape of
+  covariance matrices and agglomerative hierarchical clustering
+  based on maximum likelihood. It provides comprehensive strategies
+  using hierarchical clustering, EM and the Bayesian Information Criterion
+  (BIC) for clustering, density estimation, and discriminant
+  analysis.</li> 
+  <li><pkg>prabclus</pkg> clusters a presence-absence matrix
+  object by calculating an MDS 
+  from the distances, and applying maximum likelihood Gaussian
+  mixtures clustering to the MDS
+  points.</li>
+  <li>Bayesian estimation of finite mixtures of multivariate Gaussians
+  is possible using package <pkg>bayesm</pkg>. The package provides
+  functionality for sampling from such a mixture as well as estimating
+  the model using Gibbs sampling. Additional functionality for
+  analyzing the MCMC chains is available for averaging
+  the moments over MCMC draws, for determining the marginal densities,
+  for clustering observations and for plotting the uni- and bivariate
+  marginal densities.</li>
+  <li>Mixtures of univariate normal distributions can be printed
+  and plotted using package <pkg>nor1mix</pkg>. Package
+  <pkg>bayesmix</pkg> provides Bayesian estimation using
+  JAGS. Bayesian estimation using a variational approach for
+  multivariate Gaussian distributions with a diagonal covariance matrix
+  is provided by package <pkg>vabayelMix</pkg>. Robust estimation
+  using Weighted Likelihood can be done with package
+  <pkg>wle</pkg>.</li>
+  <li>Package <pkg>MFDA</pkg> implements model-based functional data
+  analysis.</li>
+</ul> </p>
+  
+<p><strong>Other Cluster Algorithms:</strong>
+<ul>
+  <li>Package <pkg>amap</pkg> provides alternative implementations
+  of k-means and agglomerative hierarchical clustering.</li>
+  <li>Package <pkg>cba</pkg> implements clustering techniques for
+  business analytics like "rock" and "proximus".</li>
+  <li>Package <pkg>clue</pkg> implements ensemble methods for both
+  hierarchical and partitioning cluster methods.</li>
+  <li>Fuzzy clustering and bagged clustering are available in
+  package <pkg>e1071</pkg>.</li>
+  <li>The <pkg>hopach</pkg> algorithm is a hybrid between
+  hierarchical methods and PAM and builds a tree by
+  recursively  partitioning a data set.</li>
+  <li>Self-organizing maps are available in package
+  <pkg>som</pkg>.</li>
+</ul>
+</p>
+  
+<p><strong>Cluster-wise Regression:</strong>
+<ul>
+  <li>Package <pkg>flexmix</pkg> implements an user-extensible
+  framework for EM-estimation of mixtures of regression models,
+  including mixtures of (generalized) linear models.</li>
+  <li>Package <pkg>fpc</pkg> provides fixed-point methods both for
+  model-based clustering and linear regression. A collection of
+  asymmetric projection methods can be used to plot various
+  aspects of a clustering.</li>
+  <li>Multigroup mixtures of latent Markov models on
+  mixed categorical and continuous data (including time series)
+  can be fitted using <pkg>depmix</pkg>. The parameters are optimized
+  using a general purpose optimization routine given linear and
+  nonlinear constraints on the parameters.  
+  </li>
+  <li>Circular and orthogonal regression clustering is available in
+  <pkg>edci</pkg>.</li>
+  <li>Package <pkg>mixreg</pkg> fits mixtures of one-variable
+  regressions and provides the bootstrap test for the number of
+  components.
+  </li>
+  <li>Mixed-mode latent class regression with special focus on
+  longitudinal data is implemented by <pkg>mmlcr</pkg>. The components 
+  can follow a multivariate distribution of a (censored) Gaussian,
+  multinomial, negative binomial or Poisson distribution. In addition
+  concomitant variables can be specified to model the priors.
+  </li>
+  <li><pkg>moc</pkg> fits mixture models to multivariate mixed data
+  using a Newton-type algorithm. The component specific distribution
+  may have one, two or three parameters. Covariates and concomitant
+  variables can be specified as well as constraints for the
+  parameters.</li>
+  <li><pkg>mixtools</pkg> provides fitting with the EM algorithm of
+  mixtures of multinomials, multivariate normals, normals with
+  repeated measures, Poisson regressions and Gaussian regressions
+  (with random effects) and with the Metropolis-Hastings algorithm of
+  mixtures of Gaussian regressions.</li>
+</ul>
+</p>
+  
+</info>
+
+<packagelist>
+<pkg>amap</pkg>
+<pkg>bayesm</pkg>
+<pkg>bayesmix</pkg>
+<pkg>cba</pkg>
+<pkg>clue</pkg>
+<pkg priority="core">cluster</pkg>
+<pkg>e1071</pkg>
+<pkg>edci</pkg>
+<pkg priority="core">flexclust</pkg>
+<pkg priority="core">flexmix</pkg>
+<pkg>fpc</pkg>
+<pkg>hopach</pkg>
+<pkg>hybridHclust</pkg>
+<pkg priority="core">mclust</pkg>
+<pkg>mixtools</pkg>
+<pkg>MFDA</pkg>
+<pkg>prabclus</pkg>
+<pkg>pvclust</pkg>
+<pkg>som</pkg>
+<pkg>nor1mix</pkg>
+<pkg>depmix</pkg>
+<pkg>mixreg</pkg>
+<pkg>mmlcr</pkg>
+<pkg>moc</pkg>
+<pkg>trimcluster</pkg>
+<pkg>vabayelMix</pkg>
+<pkg>wle</pkg>
+</packagelist>
+
+<links>
+<view>MachineLearning</view>
+<a href="http://www.math.mcmaster.ca/peter/mix/mix.html" target="_top">mixdist package for grouped or conditional data</a>
+</links>
+
+</CRANTaskView>
