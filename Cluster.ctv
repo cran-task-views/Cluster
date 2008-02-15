@@ -123,8 +123,6 @@ listed only once.
   using a general purpose optimization routine given linear and
   nonlinear constraints on the parameters.  
   </li>
-  <li>Circular and orthogonal regression clustering is available in
-  <pkg>edci</pkg>.</li>
   <li>Package <pkg>mixreg</pkg> fits mixtures of one-variable
   regressions and provides the bootstrap test for the number of
   components.
@@ -158,7 +156,6 @@ listed only once.
 <pkg>clue</pkg>
 <pkg priority="core">cluster</pkg>
 <pkg>e1071</pkg>
-<pkg>edci</pkg>
 <pkg priority="core">flexclust</pkg>
 <pkg priority="core">flexmix</pkg>
 <pkg>fpc</pkg>
