@@ -18,13 +18,13 @@ listed only once.
 <strong>Hierarchical Clustering:</strong>
 <ul>
   <li>
-  Functions <tt>hclust()</tt> from package stats and
-  <tt>agnes()</tt> from <pkg>cluster</pkg> are the
+  Functions <code>hclust()</code> from package stats and
+  <code>agnes()</code> from <pkg>cluster</pkg> are the
   primary functions for agglomerative hierarchical clustering,
-  function <tt>diana()</tt> can be
+  function <code>diana()</code> can be
   used for divisive hierarchical clustering. 
   </li>
-  <li>Function <tt>dendrogram()</tt> from stats and associated methods can
+  <li>Function <code>dendrogram()</code> from stats and associated methods can
   be used for improved visualization for cluster dendrograms.
   </li>
   <li><pkg>pvclust</pkg> is a package for assessing the uncertainty in
@@ -37,14 +37,14 @@ listed only once.
   
 <p><strong>Partitioning Clustering:</strong>
 <ul>
-  <li>Function <tt>kmeans()</tt> from package stats provides
+  <li>Function <code>kmeans()</code> from package stats provides
   several algorithms
   for computing partitions with respect to
   Euclidean distance.</li>
-  <li>Function <tt>pam()</tt> from package <pkg>cluster</pkg> implements
+  <li>Function <code>pam()</code> from package <pkg>cluster</pkg> implements
   partitioning around medoids and can work with arbitrary
-  distances. Function <tt>clara()</tt> is a
-  wrapper to <tt>pam()</tt> for larger data sets. Silhouette plots
+  distances. Function <code>clara()</code> is a
+  wrapper to <code>pam()</code> for larger data sets. Silhouette plots
   and spanning ellipses can be used for visualization.
   </li>
   <li>Package <pkg>flexclust</pkg> provides k-centroid cluster
