@@ -14,8 +14,7 @@ categorization. Except for packages stats and cluster (which ship with
 base R and hence are part of every R installation), each package is
 listed only once.
 
-<p>
-<strong>Hierarchical Clustering:</strong>
+<p><strong>Hierarchical Clustering:</strong></p>
 <ul>
   <li>
   Functions <code>hclust()</code> from package stats and
@@ -33,9 +32,8 @@ listed only once.
   <li><pkg>hybridHclust</pkg> implements hybrid hierarchical
   clustering via mutual clusters.</li>
 </ul>
-</p>
   
-<p><strong>Partitioning Clustering:</strong>
+<p><strong>Partitioning Clustering:</strong></p>
 <ul>
   <li>Function <code>kmeans()</code> from package stats provides
   several algorithms
@@ -54,9 +52,9 @@ listed only once.
   </li>
   <li>Package <pkg>trimcluster</pkg> provides trimmed k-means
   clustering.</li>
-</ul> </p>
+</ul>
   
-<p><strong>Model-based Clustering:</strong>
+<p><strong>Model-based Clustering:</strong></p>
 <ul>
   <li>Package <pkg>mclust</pkg> (and for backward compatibility
   <pkg>mclust02</pkg>) fits mixtures of Gaussians using the EM
@@ -89,9 +87,9 @@ listed only once.
   <pkg>wle</pkg>.</li>
   <li>Package <pkg>MFDA</pkg> implements model-based functional data
   analysis.</li>
-</ul> </p>
+</ul>
   
-<p><strong>Other Cluster Algorithms:</strong>
+<p><strong>Other Cluster Algorithms:</strong></p>
 <ul>
   <li>Package <pkg>amap</pkg> provides alternative implementations
   of k-means and agglomerative hierarchical clustering.</li>
@@ -107,9 +105,8 @@ listed only once.
   <li>Self-organizing maps are available in package
   <pkg>som</pkg>.</li>
 </ul>
-</p>
   
-<p><strong>Cluster-wise Regression:</strong>
+<p><strong>Cluster-wise Regression:</strong></p>
 <ul>
   <li>Package <pkg>flexmix</pkg> implements an user-extensible
   framework for EM-estimation of mixtures of regression models,
@@ -145,7 +142,6 @@ listed only once.
   (with random effects) and with the Metropolis-Hastings algorithm of
   mixtures of Gaussian regressions.</li>
 </ul>
-</p>
   
 </info>
 
