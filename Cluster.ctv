@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@wu.ac.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2008-02-18</version>
+<version>2009-09-24</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -128,11 +128,18 @@ listed only once.
   hierarchical clustering which was especially designed for microarray
   data to uncover structures present in the data that arise from
   'weak' genes.</li>
+  <li>Package <pkg>FactoClass</pkg> performs a combination of
+  factorial methods and cluster analysis.</li>
   <li>The <pkg>hopach</pkg> algorithm is a hybrid between
   hierarchical methods and PAM and builds a tree by
   recursively  partitioning a data set.</li>
-  <li>Self-organizing maps are available in package
-  <pkg>som</pkg>.</li>
+  <li>Package <pkg>nnclust</pkg> allows fast clustering of large data sets
+  by constructing a minimum spanning tree for each cluster. For each
+  cluster the procedure is stopped when the nearest-neighbour distance
+  rises above a specified threshold. A set of clusters and a
+  set of "outliers" not in any cluster is returned. The algorithm works best for 
+  well-separated clusters in up to 8 dimensions, and sample sizes up
+  to hundreds of thousands.</li>
   <li>Package <pkg>randomLCA</pkg> provides the fitting of latent
   class models which optionally also include a random effect.  Package
   <pkg>poLCA</pkg> allows for polytomous variable latent class 
@@ -141,8 +148,8 @@ listed only once.
   model.  A mixture of univariate gaussian distributions is used for
   the cluster structure and segments are assumed to arise because
   switching between clusters over time occurs.</li>
-  <li>Package <pkg>FactoClass</pkg> performs a combination of
-  factorial methods and cluster analysis.</li>
+  <li>Self-organizing maps are available in package
+  <pkg>som</pkg>.</li>
 </ul>
 
 <p><strong>Additional Functionality:</strong></p>
@@ -257,6 +264,7 @@ listed only once.
 <pkg>mixtools</pkg>
 <pkg>mmlcr</pkg>
 <pkg>moc</pkg>
+<pkg>nnclust</pkg>
 <pkg>nor1mix</pkg>
 <pkg>poLCA</pkg>
 <pkg>prabclus</pkg>
