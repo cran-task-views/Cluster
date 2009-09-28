@@ -66,8 +66,7 @@ listed only once.
 </ul>
 <p><strong>Model-based Clustering:</strong></p>
 <ul>
-  <li>Package <pkg>mclust</pkg> (and for backward compatibility
-  <pkg>mclust02</pkg>) fits mixtures of Gaussians using the EM
+  <li>Package <pkg>mclust</pkg> fits mixtures of Gaussians using the EM
   algorithm. It allows fine control of volume and shape of
   covariance matrices and agglomerative hierarchical clustering
   based on maximum likelihood. It provides comprehensive strategies
@@ -255,7 +254,6 @@ listed only once.
 <pkg>latentnetHRT</pkg>
 <pkg>LLAhclust</pkg>
 <pkg priority="core">mclust</pkg>
-<pkg>mclust02</pkg>
 <pkg>MFDA</pkg>
 <pkg>mixdist</pkg>
 <pkg>mixer</pkg>
