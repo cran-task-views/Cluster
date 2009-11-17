@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@wu.ac.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2009-11-16</version>
+<version>2009-11-17</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -165,7 +165,7 @@ listed only once.
   hierarchical methods and PAM and builds a tree by
   recursively  partitioning a data set.</li>
   <li>For graphs and networks model-based clustering approaches are
-  implemented in packages <pkg>latentnet</pkg>, <pkg>latentnetHRT</pkg>
+  implemented in packages <pkg>latentnet</pkg>
   and <pkg>mixer</pkg>.</li>
   <li>Package <pkg>nnclust</pkg> allows fast clustering of large data sets
   by constructing a minimum spanning tree for each cluster. For each
@@ -307,7 +307,6 @@ listed only once.
 <pkg>hopach</pkg>
 <pkg>hybridHclust</pkg>
 <pkg>latentnet</pkg>
-<pkg>latentnetHRT</pkg>
 <pkg>LLAhclust</pkg>
 <pkg>mcclust</pkg>
 <pkg priority="core">mclust</pkg>
