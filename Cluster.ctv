@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@wu.ac.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2009-11-17</version>
+<version>2010-03-10</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -49,6 +49,13 @@ listed only once.
   wrapper to <code>pam()</code> for larger data sets. Silhouette plots
   and spanning ellipses can be used for visualization.
   </li>
+  <li>Package <pkg>apcluster</pkg> implements Frey's and Dueck's
+  Affinity Propagation clustering. The algorithms in the package are analogous
+  to the Matlab code published by Frey and Dueck.</li>
+  <li>Package <pkg>bayesclust</pkg> allows to test and search for
+  clusters in a hierarchical Bayes model.</li>
+  <li> Package <pkg>clues</pkg> provides a clustering method based on
+  local shrinking.</li>
   <li>Package <pkg>clusterSim</pkg> allows to search for the optimal
   clustering procedure for a given dataset.</li>
   <li>Package <pkg>flexclust</pkg> provides k-centroid cluster
@@ -57,18 +64,13 @@ listed only once.
   image plots of partitions are available for visualization. Some of
   this functionality is also provided by package <pkg>cclust</pkg>.
   </li>
-  <li>Package <pkg>trimcluster</pkg> provides trimmed k-means
-  clustering.</li>
-  <li>Package <pkg>bayesclust</pkg> allows to test and search for
-  clusters in a hierarchical Bayes model.</li>
-  <li> Package <pkg>clues</pkg> provides a clustering method based on
-  local shrinking.</li>
   <li>Package <pkg>skmeans</pkg> allows spherical k-Means Clustering,
    i.e. k-means clustering with cosine similarity. It features several
    methods, including a genetic and a simple fixed-point algorithm and
    an interface to the CLUTO vcluster program for clustering
    high-dimensional datasets.</li>
-
+  <li>Package <pkg>trimcluster</pkg> provides trimmed k-means
+  clustering.</li>
 </ul>
 <p><strong>Model-based Clustering:</strong></p>
 <ul><li>ML estimation:
@@ -268,6 +270,7 @@ listed only once.
 <packagelist>
 <pkg>AdMit</pkg>
 <pkg>amap</pkg>
+<pkg>apcluster</pkg>
 <pkg>bayesclust</pkg>
 <pkg>bayesm</pkg>
 <pkg>bayesmix</pkg>
