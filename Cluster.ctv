@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@wu.ac.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2010-03-10</version>
+<version>2010-05-08</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -108,9 +108,7 @@ listed only once.
   marginal densities.</li>
   <li>Package
   <pkg>bayesmix</pkg> provides Bayesian estimation using
-  JAGS. Bayesian estimation using a variational approach for
-  multivariate Gaussian distributions with a diagonal covariance matrix
-  is provided by package <pkg>vabayelMix</pkg>.</li>
+  JAGS.</li>
   <li>Package <pkg>Bmix</pkg> provides Bayesian Sampling for
   stick-breaking mixtures.</li>
   <li>Package <pkg>bclust</pkg> allows Bayesian clustering using a
@@ -339,7 +337,6 @@ listed only once.
 <pkg>skmeans</pkg>
 <pkg>som</pkg>
 <pkg>trimcluster</pkg>
-<pkg>vabayelMix</pkg>
 <pkg>varmixt</pkg>
 <pkg>wle</pkg>
 </packagelist>
