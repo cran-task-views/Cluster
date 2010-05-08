@@ -192,9 +192,8 @@ listed only once.
   <li>Several packages provide cluster algorithms which have been
   developped for bioinformatics applications. These packages include
   <pkg>FunCluster</pkg> for profiling microarray expression data,
-  <pkg>MMG</pkg> for mixture models on graphcs, <pkg>ORIClust</pkg>
-  for order-restricted information-based clustering and
-  <pkg>varmixt</pkg> for mixture models on the variance.</li>
+  <pkg>MMG</pkg> for mixture models on graphcs, and <pkg>ORIClust</pkg>
+  for order-restricted information-based clustering.</li>
 </ul>
 
 <p><strong>Additional Functionality:</strong></p>
@@ -337,7 +336,6 @@ listed only once.
 <pkg>skmeans</pkg>
 <pkg>som</pkg>
 <pkg>trimcluster</pkg>
-<pkg>varmixt</pkg>
 <pkg>wle</pkg>
 </packagelist>
 
