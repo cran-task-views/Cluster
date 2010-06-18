@@ -252,17 +252,20 @@ listed only once.
   may have one, two or three parameters. Covariates and concomitant
   variables can be specified as well as constraints for the
   parameters.</li>
-  <li><pkg>mixtools</pkg> provides fitting with the EM algorithm of
-  mixtures of multinomials, multivariate normals, normals with
-  repeated measures, Poisson regressions and Gaussian regressions
-  (with random effects) and with the Metropolis-Hastings algorithm of
-  mixtures of Gaussian regressions.</li>
+  <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
+  parametric and non-parametric (multivariate) mixtures. Parametric
+  mixtures include mixtures of multinomials, multivariate normals,
+  normals with repeated measures, Poisson regressions and Gaussian
+  regressions (with random effects). Non-parametric mixtures include
+  the univariate semi-parametric case where symmetry is imposed for
+  identifiability and multivariate non-parametric mixtures with
+  conditional independent assumption. In addition fitting mixtures of
+  Gaussian regressions with the Metropolis-Hastings algorithm is
+  available.</li>
   <li><pkg>mixPHM</pkg> fits mixtures of proportional hazard models
-  with the EM algorithm.</li>
-  <li>Package <pkg>gamlss.mx</pkg> fits finite mixtures of of gamlss
-  family distributions.</li>
-</ul> 
-</info>
+  with the EM algorithm.</li> <li>Package <pkg>gamlss.mx</pkg> fits
+  finite mixtures of of gamlss family distributions.</li> </ul>
+  </info>
 
 <packagelist>
 <pkg>AdMit</pkg>
