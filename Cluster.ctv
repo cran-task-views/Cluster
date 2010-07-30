@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@wu.ac.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2010-06-18</version>
+<version>2010-07-30</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -241,12 +241,6 @@ listed only once.
   regressions and provides the bootstrap test for the number of
   components.
   </li>
-  <li>Mixed-mode latent class regression with special focus on
-  longitudinal data is implemented by <pkg>mmlcr</pkg>. The components 
-  can follow a multivariate distribution of a (censored) Gaussian,
-  multinomial, negative binomial or Poisson distribution. In addition
-  concomitant variables can be specified to model the priors.
-  </li>
   <li><pkg>moc</pkg> fits mixture models to multivariate mixed data
   using a Newton-type algorithm. The component specific distribution
   may have one, two or three parameters. Covariates and concomitant
@@ -323,7 +317,6 @@ listed only once.
 <pkg>MixSim</pkg>
 <pkg>mixtools</pkg>
 <pkg>MMG</pkg>
-<pkg>mmlcr</pkg>
 <pkg>moc</pkg>
 <pkg>nnclust</pkg>
 <pkg>nor1mix</pkg>
