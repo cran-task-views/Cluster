@@ -221,6 +221,11 @@ listed only once.
   with spatial information.</li>
   <li>Package <pkg>clustvarsel</pkg> provides variable selection for
   model-based clustering.</li>
+  <li>Functionality to compare the similarity between two cluster
+  solutions is provided by <code>cluster.stats()</code> in package
+  <pkg>fpc</pkg>. The stability of k-centroid clustering solutions
+  fitted using functions from package <pkg>flexclust</pkg> can also be
+  validated via <code>bootFlexclust()</code> using bootstrap methods.</li>
 </ul>
   
 <p><strong>Cluster-wise Regression:</strong></p>
