@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2010-11-02</version>
+<version>2011-02-09</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -34,8 +34,17 @@ listed only once.
   clustering via mutual clusters.</li>
   <li>Package <pkg>dynamicTreeCut</pkg> contains methods for detection
   of clusters in hierarchical clustering dendrograms.</li>
+  <li>Package <pkg>isopam</pkg> uses an algorithm which is based on
+  the classification of ordination scores from isometric feature
+  mapping. The classification is performed either as a hierarchical,
+  divisive method or as non-hierarchical partitioning.</li>
   <li>Package <pkg>LLAhclust</pkg> provides likelihood linkage analysis
   hierarchical clustering.</li>
+  <li>Package <pkg>sparcl</pkg> provides clustering for a set of
+  <i>n</i> observations when <i>p</i> variables are available, where
+  <i>p</i> &#8810; <i>n</i>. It adaptively chooses a set of variables
+  to use in clustering the observations. Sparse K-means clustering and
+  sparse hierarchical clustering are implemented.</li>  
 </ul>
   
 <p><strong>Partitioning Clustering:</strong></p>
@@ -64,6 +73,14 @@ listed only once.
   image plots of partitions are available for visualization. Some of
   this functionality is also provided by package <pkg>cclust</pkg>.
   </li>
+  <li>Package <pkg>kernlab</pkg> provides a weighted kernel version of
+  the k-means algorithm by <code>kkmeans</code> and spectral
+  clustering by <code>specc</code>.</li>
+  <li>Packages <pkg>kml</pkg> and <pkg>kml3d</pkg> provide k-means
+  clustering specifically for longitudinal (joint) data.</li>
+  <li>Package <pkg>optpart</pkg> contains a set of algorithms for
+  creating partitions and coverings of objects largely based on
+  operations on similarity relations (or matrices).</li>
   <li>Package <pkg>skmeans</pkg> allows spherical k-Means Clustering,
    i.e. k-means clustering with cosine similarity. It features several
    methods, including a genetic and a simple fixed-point algorithm and
@@ -82,11 +99,20 @@ listed only once.
   using hierarchical clustering, EM and the Bayesian Information Criterion
   (BIC) for clustering, density estimation, and discriminant
   analysis.</li> 
+  <li>Package <pkg>HDclassif</pkg> provides function <code>hddc</code>
+  to fit Gaussian mixture model to high-dimensional data where it is
+  assumed that the data lives in a lower dimension than the original
+  space.</li>
   <li><pkg>prabclus</pkg> clusters a presence-absence matrix
   object by calculating an MDS 
   from the distances, and applying maximum likelihood Gaussian
   mixtures clustering to the MDS
   points.</li>
+  <li>Package <pkg>MetabolAnalyze</pkg> fits mixtures of probabilistic
+  principal component analysis with the EM algorithm.</li>
+  <li>Fitting finite mixtures of uni- and multivariate scale mixtures
+  of skew-normal distributions with the EM algorithm is provided by
+  package <pkg>mixsmsn</pkg>.</li>
   <li>Package <pkg>MFDA</pkg> implements model-based functional data
   analysis.</li>
   <li>Package <pkg>GLDEX</pkg> fits mixtures of generalized lambda
@@ -114,6 +140,11 @@ listed only once.
   <li>Package <pkg>bclust</pkg> allows Bayesian clustering using a
   spike-and-slab hierarchical model and is suitable for clustering
   high-dimensional data.</li>
+  <li>Package <pkg>dpmixsim</pkg> fits Dirichlet process mixture
+  models using conjugate models with normal structure. Package
+  <pkg>profdpm</pkg> determines the maximum posterior estimate for
+  product partition models where the Dirichlet process mixture is a
+  specific case in the class.</li>
   <li>Package <pkg>mixAK</pkg> contains a mixture of statistical
   methods including the MCMC methods to analyze normal mixtures with
   possibly censored data.  </li>
@@ -133,6 +164,8 @@ listed only once.
   <li>Package <pkg>AdMit</pkg> allows to fit an adaptive mixture of Student-t
   distributions to approximate a target density through its kernel
   function.</li>
+  <li>Circular and orthogonal regression clustering using redescending
+  M-estimators is provided by package <pkg>edci</pkg>.</li>
   <li>Robust estimation using Weighted Likelihood can be done with
   package <pkg>wle</pkg>.</li>
   <li>Package <pkg>pendensity</pkg> estimates densities with a penalized
@@ -145,7 +178,8 @@ listed only once.
   <li>Package <pkg>amap</pkg> provides alternative implementations
   of k-means and agglomerative hierarchical clustering.</li>
   <li>Package <pkg>biclust</pkg> provides several algorithms to find
-  biclusters in two-dimensional data.</li>
+  biclusters in two-dimensional data. Package <pkg>isa2</pkg> provides
+  the Iterative Signature Algorithm (ISA) for biclustering.</li>
   <li>Package <pkg>cba</pkg> implements clustering techniques for
   business analytics like "rock" and "proximus".</li>
   <li>Package <pkg>CHsharp</pkg> clusters 3-dimensional data into
@@ -195,6 +229,46 @@ listed only once.
   <pkg>MMG</pkg> for mixture models on graphcs, and <pkg>ORIClust</pkg>
   for order-restricted information-based clustering.</li>
 </ul>
+  
+<p><strong>Cluster-wise Regression:</strong></p>
+<ul>
+  <li>Package <pkg>flexmix</pkg> implements an user-extensible
+  framework for EM-estimation of mixtures of regression models,
+  including mixtures of (generalized) linear models.</li>
+  <li>Package <pkg>fpc</pkg> provides fixed-point methods both for
+  model-based clustering and linear regression. A collection of
+  asymmetric projection methods can be used to plot various
+  aspects of a clustering.</li>
+  <li>Multigroup mixtures of latent Markov models on mixed categorical
+  and continuous data (including time series) can be fitted using
+  <pkg>depmix</pkg> or <pkg>depmixS4</pkg>. The parameters are
+  optimized using a general purpose optimization routine given linear
+  and nonlinear constraints on the parameters.</li>
+  <li>Package <pkg>mixreg</pkg> fits mixtures of one-variable
+  regressions and provides the bootstrap test for the number of
+  components.
+  </li>
+  <li>Package <pkg>lcmm</pkg> fits a latent class linear mixed model
+  which is also known as growth mixture model or heterogeneous linear
+  mixed model using a maximum likelihood method.</li>
+  <li><pkg>moc</pkg> fits mixture models to multivariate mixed data
+  using a Newton-type algorithm. The component specific distribution
+  may have one, two or three parameters. Covariates and concomitant
+  variables can be specified as well as constraints for the
+  parameters.</li>
+  <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
+  parametric and non-parametric (multivariate) mixtures. Parametric
+  mixtures include mixtures of multinomials, multivariate normals,
+  normals with repeated measures, Poisson regressions and Gaussian
+  regressions (with random effects). Non-parametric mixtures include
+  the univariate semi-parametric case where symmetry is imposed for
+  identifiability and multivariate non-parametric mixtures with
+  conditional independent assumption. In addition fitting mixtures of
+  Gaussian regressions with the Metropolis-Hastings algorithm is
+  available.</li>
+  <li><pkg>mixPHM</pkg> fits mixtures of proportional hazard models
+  with the EM algorithm.</li> <li>Package <pkg>gamlss.mx</pkg> fits
+  finite mixtures of of gamlss family distributions.</li> </ul>
 
 <p><strong>Additional Functionality:</strong></p>
 <ul>
@@ -223,47 +297,26 @@ listed only once.
   model-based clustering.</li>
   <li>Functionality to compare the similarity between two cluster
   solutions is provided by <code>cluster.stats()</code> in package
-  <pkg>fpc</pkg>. The stability of k-centroid clustering solutions
-  fitted using functions from package <pkg>flexclust</pkg> can also be
-  validated via <code>bootFlexclust()</code> using bootstrap methods.</li>
+  <pkg>fpc</pkg>.</li>
+  <li><pkg>clusterCons</pkg> allows to calculate the consensus
+  clustering result from re-sampled clustering experiments with the
+  option of using multiple algorithms and parameters.</li>
+  <li>The stability of k-centroid clustering solutions fitted using
+  functions from package <pkg>flexclust</pkg> can also be validated
+  via <code>bootFlexclust()</code> using bootstrap methods.</li>
+  <li>Package <pkg>MOCCA</pkg> provides methods to analyze cluster
+  alternatives based on multi-objective optimization of cluster
+  validation indices.</li>
+  <li>Package <pkg>SDisc</pkg> provides an integrated methodology for
+  the identification of homogeneous profiles in a data distribution by
+  including methods for data treatment and pre-processing, repeated
+  cluster analysis, model selection, model reliability and
+  reproducibility assessment, profiles characterization and validation
+  by visual and table summaries.</li>
+  <li>Package <pkg>sigclust</pkg> provides a statistical method for
+  testing the significance of clustering results.</li>
 </ul>
-  
-<p><strong>Cluster-wise Regression:</strong></p>
-<ul>
-  <li>Package <pkg>flexmix</pkg> implements an user-extensible
-  framework for EM-estimation of mixtures of regression models,
-  including mixtures of (generalized) linear models.</li>
-  <li>Package <pkg>fpc</pkg> provides fixed-point methods both for
-  model-based clustering and linear regression. A collection of
-  asymmetric projection methods can be used to plot various
-  aspects of a clustering.</li>
-  <li>Multigroup mixtures of latent Markov models on mixed categorical
-  and continuous data (including time series) can be fitted using
-  <pkg>depmix</pkg> or <pkg>depmixS4</pkg>. The parameters are
-  optimized using a general purpose optimization routine given linear
-  and nonlinear constraints on the parameters.</li>
-  <li>Package <pkg>mixreg</pkg> fits mixtures of one-variable
-  regressions and provides the bootstrap test for the number of
-  components.
-  </li>
-  <li><pkg>moc</pkg> fits mixture models to multivariate mixed data
-  using a Newton-type algorithm. The component specific distribution
-  may have one, two or three parameters. Covariates and concomitant
-  variables can be specified as well as constraints for the
-  parameters.</li>
-  <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
-  parametric and non-parametric (multivariate) mixtures. Parametric
-  mixtures include mixtures of multinomials, multivariate normals,
-  normals with repeated measures, Poisson regressions and Gaussian
-  regressions (with random effects). Non-parametric mixtures include
-  the univariate semi-parametric case where symmetry is imposed for
-  identifiability and multivariate non-parametric mixtures with
-  conditional independent assumption. In addition fitting mixtures of
-  Gaussian regressions with the Metropolis-Hastings algorithm is
-  available.</li>
-  <li><pkg>mixPHM</pkg> fits mixtures of proportional hazard models
-  with the EM algorithm.</li> <li>Package <pkg>gamlss.mx</pkg> fits
-  finite mixtures of of gamlss family distributions.</li> </ul>
+
   </info>
 
 <packagelist>
@@ -282,6 +335,7 @@ listed only once.
 <pkg>clue</pkg>
 <pkg>clues</pkg>
 <pkg priority="core">cluster</pkg>
+<pkg>clusterCons</pkg>
 <pkg>clusterfly</pkg>
 <pkg>clusterGeneration</pkg>
 <pkg>clusterRepro</pkg>
@@ -293,8 +347,10 @@ listed only once.
 <pkg>compHclust</pkg>
 <pkg>depmix</pkg>
 <pkg>depmixS4</pkg>
+<pkg>dpmixsim</pkg>
 <pkg>dynamicTreeCut</pkg>
 <pkg>e1071</pkg>
+<pkg>edci</pkg>
 <pkg>EMCC</pkg>
 <pkg>FactoClass</pkg>
 <pkg>flashClust</pkg>
@@ -306,12 +362,21 @@ listed only once.
 <pkg>gcExplorer</pkg>
 <pkg>GLDEX</pkg>
 <pkg>GSM</pkg>
+<pkg>HDclassif</pkg>
 <pkg>hopach</pkg>
 <pkg>hybridHclust</pkg>
+<pkg>isa2</pkg>
+<pkg>isopam</pkg>
+<pkg>kernlab</pkg>
+<pkg>kml</pkg>
+<pkg>kml3d</pkg>
 <pkg>latentnet</pkg>
+<pkg>lcmm</pkg>
 <pkg>LLAhclust</pkg>
 <pkg>mcclust</pkg>
 <pkg priority="core">mclust</pkg>
+<pkg>MetabolAnalyze</pkg>
+<pkg>mixsmsn</pkg>
 <pkg>MFDA</pkg>
 <pkg>mixAK</pkg>
 <pkg>mixdist</pkg>
@@ -323,19 +388,25 @@ listed only once.
 <pkg>mixtools</pkg>
 <pkg>MMG</pkg>
 <pkg>moc</pkg>
+<pkg>MOCCA</pkg>
 <pkg>nnclust</pkg>
 <pkg>nor1mix</pkg>
+<pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
 <pkg>pendensity</pkg>
 <pkg>poLCA</pkg>
 <pkg>prabclus</pkg>
+<pkg>profdpm</pkg>
 <pkg>pvclust</pkg>
 <pkg>randomLCA</pkg>
 <pkg>rjags</pkg>
 <pkg>RPMM</pkg>
 <pkg>segclust</pkg>
+<pkg>SDisc</pkg>
+<pkg>sigclust</pkg>
 <pkg>skmeans</pkg>
 <pkg>som</pkg>
+<pkg>sparcl</pkg>
 <pkg>trimcluster</pkg>
 <pkg>wle</pkg>
 </packagelist>
