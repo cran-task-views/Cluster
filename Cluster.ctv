@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2011-02-22</version>
+<version>2011-03-13</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -81,6 +81,10 @@ listed only once.
   <li>Package <pkg>optpart</pkg> contains a set of algorithms for
   creating partitions and coverings of objects largely based on
   operations on similarity relations (or matrices).</li>
+  <li>Package <pkg>pdfCluster</pkg> provides tools to perform cluster
+  analysis via kernel density estimation. Clusters are associated to
+  the maximally connected components with estimated density above a
+  threshold.</li>
   <li>Package <pkg>skmeans</pkg> allows spherical k-Means Clustering,
    i.e. k-means clustering with cosine similarity. It features several
    methods, including a genetic and a simple fixed-point algorithm and
@@ -396,6 +400,7 @@ listed only once.
 <pkg>nor1mix</pkg>
 <pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
+<pkg>pdfCluster</pkg>
 <pkg>pendensity</pkg>
 <pkg>poLCA</pkg>
 <pkg>prabclus</pkg>
