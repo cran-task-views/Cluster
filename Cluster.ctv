@@ -21,11 +21,13 @@ listed only once.
   <code>agnes()</code> from <pkg>cluster</pkg> are the primary
   functions for agglomerative hierarchical clustering, function
   <code>diana()</code> can be used for divisive hierarchical
-  clustering. A faster alternative to <code>hclust()</code> is
-  provided by <pkg>flashClust</pkg>.
+  clustering. Faster alternatives to <code>hclust()</code> are
+  provided by the packages <pkg>fastcluster</pkg> and
+  <pkg>flashClust</pkg>.
   </li>
-  <li>Function <code>dendrogram()</code> from stats and associated methods can
-  be used for improved visualization for cluster dendrograms.
+  <li>Function <code>dendrogram()</code> from stats and associated
+  methods can be used for improved visualization for cluster
+  dendrograms.
   </li>
   <li><pkg>pvclust</pkg> is a package for assessing the uncertainty in
   hierarchical cluster analysis. It provides approximately
@@ -360,6 +362,7 @@ listed only once.
 <pkg>EMCC</pkg>
 <pkg>FactoClass</pkg>
 <pkg>flashClust</pkg>
+<pkg>fastcluster</pkg>
 <pkg priority="core">flexclust</pkg>
 <pkg priority="core">flexmix</pkg>
 <pkg>fpc</pkg>
