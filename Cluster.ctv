@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2011-03-13</version>
+<version>2011-04-13</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -156,8 +156,6 @@ listed only once.
   <li>Package <pkg>mixAK</pkg> contains a mixture of statistical
   methods including the MCMC methods to analyze normal mixtures with
   possibly censored data.  </li>
-  <li>Package <pkg>EMCC</pkg> provides evolutionary Monte Carlo (EMC)
-  methods for clustering.</li>
   <li>Package <pkg>GSM</pkg> fits mixtures of gamma distributions.</li> 
   <li>Package <pkg>mcclust</pkg> implements methods for processing a
   sample of (hard) clusterings, e.g. the MCMC output of a Bayesian
@@ -359,7 +357,6 @@ listed only once.
 <pkg>dynamicTreeCut</pkg>
 <pkg>e1071</pkg>
 <pkg>edci</pkg>
-<pkg>EMCC</pkg>
 <pkg>FactoClass</pkg>
 <pkg>flashClust</pkg>
 <pkg>fastcluster</pkg>
