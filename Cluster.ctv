@@ -44,7 +44,7 @@ listed only once.
   hierarchical clustering.</li>
   <li>Package <pkg>sparcl</pkg> provides clustering for a set of
   <i>n</i> observations when <i>p</i> variables are available, where
-  <i>p</i> << <i>n</i>. It adaptively chooses a set of variables
+  <i>p</i> &lt;&lt; <i>n</i>. It adaptively chooses a set of variables
   to use in clustering the observations. Sparse K-means clustering and
   sparse hierarchical clustering are implemented.</li>  
 </ul>
