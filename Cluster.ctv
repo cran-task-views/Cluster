@@ -23,25 +23,28 @@ listed only once.
   <code>diana()</code> can be used for divisive hierarchical
   clustering. Faster alternatives to <code>hclust()</code> are
   provided by the packages <pkg>fastcluster</pkg> and
-  <pkg>flashClust</pkg>.
-  </li>
+  <pkg>flashClust</pkg>.</li>
   <li>Function <code>dendrogram()</code> from stats and associated
   methods can be used for improved visualization for cluster
-  dendrograms.
-  </li>
-  <li><pkg>pvclust</pkg> is a package for assessing the uncertainty in
-  hierarchical cluster analysis. It provides approximately
-  unbiased p-values as well as bootstrap p-values.</li>
-  <li><pkg>hybridHclust</pkg> implements hybrid hierarchical
-  clustering via mutual clusters.</li>
+  dendrograms.</li>
   <li>Package <pkg>dynamicTreeCut</pkg> contains methods for detection
   of clusters in hierarchical clustering dendrograms.</li>
+  <li><pkg>hybridHclust</pkg> implements hybrid hierarchical
+  clustering via mutual clusters.</li>
   <li>Package <pkg>isopam</pkg> uses an algorithm which is based on
   the classification of ordination scores from isometric feature
   mapping. The classification is performed either as a hierarchical,
   divisive method or as non-hierarchical partitioning.</li>
   <li>Package <pkg>LLAhclust</pkg> provides likelihood linkage analysis
   hierarchical clustering.</li>
+  <li>The package <pkg>protoclust</pkg> implements a form of
+  hierarchical clustering that associates a prototypical element with
+  each interior node of the dendrogram.  Using the package's
+  <code>plot()</code> function, one can produce dendrograms that are
+  prototype-labeled and are therefore easier to interpret.</li>
+  <li><pkg>pvclust</pkg> is a package for assessing the uncertainty in
+  hierarchical cluster analysis. It provides approximately
+  unbiased p-values as well as bootstrap p-values.</li>
   <li>Package <pkg>sparcl</pkg> provides clustering for a set of
   <i>n</i> observations when <i>p</i> variables are available, where
   <i>p</i> &gt;&gt; <i>n</i>. It adaptively chooses a set of variables
@@ -405,6 +408,7 @@ listed only once.
 <pkg>poLCA</pkg>
 <pkg>prabclus</pkg>
 <pkg>profdpm</pkg>
+<pkg>protoclust</pkg>
 <pkg>pvclust</pkg>
 <pkg>randomLCA</pkg>
 <pkg>rjags</pkg>
