@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2011-07-12</version>
+<version>2011-08-20</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -96,7 +96,9 @@ listed only once.
    an interface to the CLUTO vcluster program for clustering
    high-dimensional datasets.</li>
   <li>Package <pkg>trimcluster</pkg> provides trimmed k-means
-  clustering.</li>
+  clustering. Package <pkg>tclust</pkg> also allows for trimmed
+  k-means clustering. In addition using this package other covariance
+  structures can also be specified for the clusters.</li>
 </ul>
 <p><strong>Model-based Clustering:</strong></p>
 <ul><li>ML estimation:
@@ -419,6 +421,7 @@ listed only once.
 <pkg>skmeans</pkg>
 <pkg>som</pkg>
 <pkg>sparcl</pkg>
+<pkg>tclust</pkg>
 <pkg>trimcluster</pkg>
 <pkg>wle</pkg>
 </packagelist>
