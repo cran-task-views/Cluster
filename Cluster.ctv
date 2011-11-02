@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2011-08-20</version>
+<version>2011-11-02</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -114,6 +114,9 @@ listed only once.
   to fit Gaussian mixture model to high-dimensional data where it is
   assumed that the data lives in a lower dimension than the original
   space.</li>
+  <li><pkg>mritc</pkg> provides tools for classification using normal
+  mixture models and (higher resolution) hidden Markov normal mixture
+  models fitted by various methods.</li>
   <li><pkg>prabclus</pkg> clusters a presence-absence matrix
   object by calculating an MDS 
   from the distances, and applying maximum likelihood Gaussian
@@ -401,6 +404,7 @@ listed only once.
 <pkg>moc</pkg>
 <pkg>MOCCA</pkg>
 <pkg>movMF</pkg>
+<pkg>mritc</pkg>
 <pkg>nnclust</pkg>
 <pkg>nor1mix</pkg>
 <pkg>optpart</pkg>
