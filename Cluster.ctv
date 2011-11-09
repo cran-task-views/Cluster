@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2011-11-02</version>
+<version>2011-11-09</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -209,7 +209,7 @@ listed only once.
   'weak' genes.</li>
   <li>Package <pkg>FactoClass</pkg> performs a combination of
   factorial methods and cluster analysis.</li>
-  <li>The <pkg>hopach</pkg> algorithm is a hybrid between
+  <li>The <bioc>hopach</bioc> algorithm is a hybrid between
   hierarchical methods and PAM and builds a tree by
   recursively  partitioning a data set.</li>
   <li>For graphs and networks model-based clustering approaches are
@@ -377,7 +377,6 @@ listed only once.
 <pkg>GLDEX</pkg>
 <pkg>GSM</pkg>
 <pkg>HDclassif</pkg>
-<pkg>hopach</pkg>
 <pkg>hybridHclust</pkg>
 <pkg>isa2</pkg>
 <pkg>isopam</pkg>
@@ -432,6 +431,7 @@ listed only once.
 
 <links>
 <view>MachineLearning</view>
+<bioc>hopach</bioc>
 </links>
 
 </CRANTaskView>
