@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2011-11-09</version>
+<version>2011-12-09</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -13,6 +13,13 @@ mainly meant as quick starting points rather than an ultimate
 categorization. Except for packages stats and cluster (which ship with
 base R and hence are part of every R installation), each package is
 listed only once.
+<p>Most of the packages listed in this CRAN Task View, but not all are
+distributed under the GPL. Please have a look at the DESCRIPTION file
+of each package to check under which license it is distributed. Note
+especially the license of package <pkg>mclust</pkg>, which by its use
+(also through other packages) requires payment of an annual license
+fee and completion of a license agreement except for strict academic
+use.</p>
 
 <p><strong>Hierarchical Clustering:</strong></p>
 <ul>
@@ -109,7 +116,12 @@ listed only once.
   based on maximum likelihood. It provides comprehensive strategies
   using hierarchical clustering, EM and the Bayesian Information Criterion
   (BIC) for clustering, density estimation, and discriminant
-  analysis.</li> 
+  analysis.
+  Please note the license under which this package is
+  distributed. Except for strict academic use, use of
+  <pkg>mclust</pkg> (by itself or through other packages) requires
+  payment of an annual license fee and completion of a license
+  agreement.</li> 
   <li>Package <pkg>HDclassif</pkg> provides function <code>hddc</code>
   to fit Gaussian mixture model to high-dimensional data where it is
   assumed that the data lives in a lower dimension than the original
@@ -330,7 +342,6 @@ listed only once.
   <li>Package <pkg>sigclust</pkg> provides a statistical method for
   testing the significance of clustering results.</li>
 </ul>
-
   </info>
 
 <packagelist>
@@ -387,7 +398,7 @@ listed only once.
 <pkg>lcmm</pkg>
 <pkg>LLAhclust</pkg>
 <pkg>mcclust</pkg>
-<pkg priority="core">mclust</pkg>
+<pkg>mclust</pkg>
 <pkg>MetabolAnalyze</pkg>
 <pkg>mixsmsn</pkg>
 <pkg>MFDA</pkg>
