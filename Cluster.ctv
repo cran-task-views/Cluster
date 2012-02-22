@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-02-01</version>
+<version>2012-02-22</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -147,6 +147,10 @@ use.</p>
   <li>Package <pkg>mixRasch</pkg> estimates mixture Rasch models,
   including the dichotomous Rasch model, the rating scale model, and the
   partial credit model with joint maximum likelihood estimation.</li>
+  <li>Package <pkg>pmclust</pkg> allows to use unsupervised
+  model-based clustering for high dimensional (ultra) large data. The
+  package uses <pkg>Rmpi</pkg> to perform a parallel version of the EM
+  algorithm for mixtures of Gaussians.</li>
 </ul></li>
 <li>Bayesian estimation:
 <ul>
@@ -418,6 +422,7 @@ use.</p>
 <pkg>ORIClust</pkg>
 <pkg>pdfCluster</pkg>
 <pkg>pendensity</pkg>
+<pkg>pmclust</pkg>
 <pkg>poLCA</pkg>
 <pkg>prabclus</pkg>
 <pkg>profdpm</pkg>
