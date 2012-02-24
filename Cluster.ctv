@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-02-22</version>
+<version>2012-02-24</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -269,7 +269,8 @@ use.</p>
   aspects of a clustering.</li>
   <li>Multigroup mixtures of latent Markov models on mixed categorical
   and continuous data (including time series) can be fitted using
-  <pkg>depmix</pkg> or <pkg>depmixS4</pkg>. The parameters are
+  <pkg>depmix</pkg>. <!-- or <pkg>depmixS4</pkg>. -->
+  The parameters are
   optimized using a general purpose optimization routine given linear
   and nonlinear constraints on the parameters.</li>
   <li>Package <pkg>mixreg</pkg> fits mixtures of one-variable
@@ -373,7 +374,6 @@ use.</p>
 <pkg>clValid</pkg>
 <pkg>compHclust</pkg>
 <pkg>depmix</pkg>
-<pkg>depmixS4</pkg>
 <pkg>dpmixsim</pkg>
 <pkg>dynamicTreeCut</pkg>
 <pkg>e1071</pkg>
