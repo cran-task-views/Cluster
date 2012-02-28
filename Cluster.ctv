@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-02-24</version>
+<version>2012-02-28</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -215,6 +215,10 @@ use.</p>
   (1999) data sharpening method.</li>
   <li>Package <pkg>clue</pkg> implements ensemble methods for both
   hierarchical and partitioning cluster methods.</li>
+  <li>Package <pkg>CoClust</pkg> implements a cluster algorithm that
+  is based on copula functions and therefore allows to group
+  observations according to the multivariate dependence structure of
+  the generating process without any assumptions on the margins.</li>
   <li>Fuzzy clustering and bagged clustering are available in
   package <pkg>e1071</pkg>.</li>
   <li>Package <pkg>compHclust</pkg> provides complimentary
@@ -372,6 +376,7 @@ use.</p>
 <pkg>clustvarsel</pkg>
 <pkg>clv</pkg>
 <pkg>clValid</pkg>
+<pkg>CoClust</pkg>
 <pkg>compHclust</pkg>
 <pkg>depmix</pkg>
 <pkg>dpmixsim</pkg>
