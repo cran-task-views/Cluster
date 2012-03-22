@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-03-16</version>
+<version>2012-03-22</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
