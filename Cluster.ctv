@@ -143,10 +143,14 @@ use.</p>
   Mises-Fisher distributions with the EM algorithm.</li>
   <li>Package <pkg>MFDA</pkg> implements model-based functional data
   analysis.</li>
-  <li>For grouped conditional data package <pkg>mixdist</pkg> can be used.</li>
-  <li>Package <pkg>mixRasch</pkg> estimates mixture Rasch models,
-  including the dichotomous Rasch model, the rating scale model, and the
-  partial credit model with joint maximum likelihood estimation.</li>
+  <li>For grouped conditional data package <pkg>mixdist</pkg> can be
+  used.</li>
+  <li>Package <pkg>psychomix</pkg> estimates mixtures of the
+  dichotomous Rasch model (via conditional ML) and the Bradley-Terry
+  model. Package <pkg>mixRasch</pkg> estimates mixture Rasch models,
+  including the dichotomous Rasch model, the rating scale model, and
+  the partial credit model with joint maximum likelihood estimation.
+  </li>
   <li>Package <pkg>pmclust</pkg> allows to use unsupervised
   model-based clustering for high dimensional (ultra) large data. The
   package uses <pkg>Rmpi</pkg> to perform a parallel version of the EM
@@ -432,6 +436,7 @@ use.</p>
 <pkg>prabclus</pkg>
 <pkg>profdpm</pkg>
 <pkg>protoclust</pkg>
+<pkg>psychomix</pkg>
 <pkg>pvclust</pkg>
 <pkg>randomLCA</pkg>
 <pkg>rjags</pkg>
