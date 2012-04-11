@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-03-22</version>
+<version>2012-04-11</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -90,9 +90,6 @@ use.</p>
   clustering by <code>specc</code>.</li>
   <li>Packages <pkg>kml</pkg> and <pkg>kml3d</pkg> provide k-means
   clustering specifically for longitudinal (joint) data.</li>
-  <li>Package <pkg>optpart</pkg> contains a set of algorithms for
-  creating partitions and coverings of objects largely based on
-  operations on similarity relations (or matrices).</li>
   <li>Package <pkg>pdfCluster</pkg> provides tools to perform cluster
   analysis via kernel density estimation. Clusters are associated to
   the maximally connected components with estimated density above a
@@ -427,7 +424,6 @@ use.</p>
 <pkg>mritc</pkg>
 <pkg>nnclust</pkg>
 <pkg>nor1mix</pkg>
-<pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
 <pkg>pdfCluster</pkg>
 <pkg>pendensity</pkg>
