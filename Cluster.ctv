@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-04-11</version>
+<version>2012-04-16</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -258,8 +258,8 @@ use.</p>
   <pkg>som</pkg>.</li>
   <li>Several packages provide cluster algorithms which have been
   developped for bioinformatics applications. These packages include
-  <pkg>FunCluster</pkg> for profiling microarray expression data,
-  <pkg>MMG</pkg> for mixture models on graphcs, and <pkg>ORIClust</pkg>
+  <pkg>FunCluster</pkg> for profiling microarray expression data
+  and <pkg>ORIClust</pkg>
   for order-restricted information-based clustering.</li>
 </ul>
   
@@ -417,7 +417,6 @@ use.</p>
 <pkg>mixreg</pkg>
 <pkg>MixSim</pkg>
 <pkg>mixtools</pkg>
-<pkg>MMG</pkg>
 <pkg>moc</pkg>
 <pkg>MOCCA</pkg>
 <pkg>movMF</pkg>
