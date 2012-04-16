@@ -250,10 +250,6 @@ use.</p>
   clustering algorithm that returns a hierarchy of classes, similar to
   hierarchical clustering, but also similar to finite mixture
   models.</li>
-  <li>Package <pkg>segclust</pkg> fits a segmentation/clustering
-  model.  A mixture of univariate gaussian distributions is used for
-  the cluster structure and segments are assumed to arise because
-  switching between clusters over time occurs.</li>
   <li>Self-organizing maps are available in package
   <pkg>som</pkg>.</li>
   <li>Several packages provide cluster algorithms which have been
@@ -436,7 +432,6 @@ use.</p>
 <pkg>randomLCA</pkg>
 <pkg>rjags</pkg>
 <pkg>RPMM</pkg>
-<pkg>segclust</pkg>
 <pkg>SDisc</pkg>
 <pkg>sigclust</pkg>
 <pkg>skmeans</pkg>
