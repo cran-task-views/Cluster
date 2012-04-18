@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-04-16</version>
+<version>2012-04-18</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -118,7 +118,12 @@ use.</p>
   distributed. Except for strict academic use, use of
   <pkg>mclust</pkg> (by itself or through other packages) requires
   payment of an annual license fee and completion of a license
-  agreement.</li> 
+  agreement.</li>
+  <li>For semi- or partially supervised problems, where for a part of
+  the observations labels are given with certainty or with some
+  probability, package <pkg>bgmm</pkg> provides belief-based and
+  soft-label mixture modeling for mixtures of Gaussians with the EM
+  algorithm.</li> 
   <li>Package <pkg>HDclassif</pkg> provides function <code>hddc</code>
   to fit Gaussian mixture model to high-dimensional data where it is
   assumed that the data lives in a lower dimension than the original
@@ -355,8 +360,9 @@ use.</p>
 <pkg>bayesm</pkg>
 <pkg>bayesmix</pkg>
 <pkg>bclust</pkg>
-<pkg>Bmix</pkg>
+<pkg>bgmm</pkg>
 <pkg>biclust</pkg>
+<pkg>Bmix</pkg>
 <pkg>cba</pkg>
 <pkg>cclust</pkg>
 <pkg>CHsharp</pkg>
