@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-04-18</version>
+<version>2012-05-04</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -237,8 +237,8 @@ use.</p>
   hierarchical methods and PAM and builds a tree by
   recursively  partitioning a data set.</li>
   <li>For graphs and networks model-based clustering approaches are
-  implemented in packages <pkg>latentnet</pkg>
-  and <pkg>mixer</pkg>.</li>
+  implemented in package
+  <pkg>mixer</pkg>.</li>
   <li>Package <pkg>nnclust</pkg> allows fast clustering of large data sets
   by constructing a minimum spanning tree for each cluster. For each
   cluster the procedure is stopped when the nearest-neighbour distance
@@ -403,7 +403,6 @@ use.</p>
 <pkg>kernlab</pkg>
 <pkg>kml</pkg>
 <pkg>kml3d</pkg>
-<pkg>latentnet</pkg>
 <pkg>lcmm</pkg>
 <pkg>LLAhclust</pkg>
 <pkg>mcclust</pkg>
