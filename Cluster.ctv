@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-05-04</version>
+<version>2012-06-04</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -42,8 +42,6 @@ use.</p>
   the classification of ordination scores from isometric feature
   mapping. The classification is performed either as a hierarchical,
   divisive method or as non-hierarchical partitioning.</li>
-  <li>Package <pkg>LLAhclust</pkg> provides likelihood linkage analysis
-  hierarchical clustering.</li>
   <li>The package <pkg>protoclust</pkg> implements a form of
   hierarchical clustering that associates a prototypical element with
   each interior node of the dendrogram.  Using the package's
@@ -404,7 +402,6 @@ use.</p>
 <pkg>kml</pkg>
 <pkg>kml3d</pkg>
 <pkg>lcmm</pkg>
-<pkg>LLAhclust</pkg>
 <pkg>mcclust</pkg>
 <pkg>mclust</pkg>
 <pkg>MetabolAnalyze</pkg>
