@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-06-04</version>
+<version>2012-06-24</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -325,8 +325,6 @@ use.</p>
   stability measures.</li>
   <li>Package <pkg>clustTool</pkg> provides a GUI for clustering data
   with spatial information.</li>
-  <li>Package <pkg>clustvarsel</pkg> provides variable selection for
-  model-based clustering.</li>
   <li>Functionality to compare the similarity between two cluster
   solutions is provided by <code>cluster.stats()</code> in package
   <pkg>fpc</pkg>.</li>
@@ -373,7 +371,6 @@ use.</p>
 <pkg>clusterRepro</pkg>
 <pkg>clusterSim</pkg>
 <pkg>clustTool</pkg>
-<pkg>clustvarsel</pkg>
 <pkg>clv</pkg>
 <pkg>clValid</pkg>
 <pkg>CoClust</pkg>
