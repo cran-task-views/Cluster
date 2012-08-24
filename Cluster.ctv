@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-07-21</version>
+<version>2012-07-24</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -126,8 +126,6 @@ of each package to check under which license it is distributed.</p>
   using hierarchical clustering, EM and the Bayesian Information Criterion
   (BIC) for clustering, density estimation, and discriminant
   analysis.</li>
-  <li>Package <pkg>MetabolAnalyze</pkg> fits mixtures of probabilistic
-  principal component analysis with the EM algorithm.</li>
   <li>For grouped conditional data package <pkg>mixdist</pkg> can be
   used.</li>
   <li>Fitting finite mixtures of uni- and multivariate scale mixtures
@@ -411,7 +409,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>longclust</pkg>
 <pkg>mcclust</pkg>
 <pkg priority="core">mclust</pkg>
-<pkg>MetabolAnalyze</pkg>
 <pkg>mixsmsn</pkg>
 <pkg>MFDA</pkg>
 <pkg>mixAK</pkg>
