@@ -330,8 +330,6 @@ of each package to check under which license it is distributed.</p>
   use for most of the outputs produced by functions from package
   <pkg>cluster</pkg> and <pkg>clValid</pkg> calculates several
   stability measures.</li>
-  <li>Package <pkg>clustTool</pkg> provides a GUI for clustering data
-  with spatial information.</li>
   <li>Functionality to compare the similarity between two cluster
   solutions is provided by <code>cluster.stats()</code> in package
   <pkg>fpc</pkg>.</li>
@@ -377,7 +375,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>clusterGeneration</pkg>
 <pkg>clusterRepro</pkg>
 <pkg>clusterSim</pkg>
-<pkg>clustTool</pkg>
 <pkg>clv</pkg>
 <pkg>clValid</pkg>
 <pkg>CoClust</pkg>
