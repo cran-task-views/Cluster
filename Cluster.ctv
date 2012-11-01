@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2012-10-30</version>
+<version>2012-11-01</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -133,8 +133,6 @@ of each package to check under which license it is distributed.</p>
   <li>Fitting finite mixtures of uni- and multivariate scale mixtures
   of skew-normal distributions with the EM algorithm is provided by
   package <pkg>mixsmsn</pkg>.</li>
-  <li>Package <pkg>MFDA</pkg> implements model-based functional data
-  analysis.</li>
   <li>Package <pkg>movMF</pkg> fits finite mixtures of von
   Mises-Fisher distributions with the EM algorithm.</li>
   <li><pkg>mritc</pkg> provides tools for classification using normal
@@ -405,7 +403,6 @@ of each package to check under which license it is distributed.</p>
 <pkg priority="core">mclust</pkg>
 <pkg>MetabolAnalyze</pkg>
 <pkg>mixsmsn</pkg>
-<pkg>MFDA</pkg>
 <pkg>mixAK</pkg>
 <pkg>mixdist</pkg>
 <pkg>mixer</pkg>
