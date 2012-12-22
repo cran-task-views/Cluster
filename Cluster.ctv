@@ -172,9 +172,6 @@ of each package to check under which license it is distributed.</p>
   <li>Package
   <pkg>bayesmix</pkg> provides Bayesian estimation using
   JAGS.</li>
-  <li>Package <pkg>bclust</pkg> allows Bayesian clustering using a
-  spike-and-slab hierarchical model and is suitable for clustering
-  high-dimensional data.</li>
   <li>Package <pkg>Bmix</pkg> provides Bayesian Sampling for
   stick-breaking mixtures.</li>
   <li>Package <pkg>dpmixsim</pkg> fits Dirichlet process mixture
@@ -352,7 +349,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>BayesLCA</pkg>
 <pkg>bayesm</pkg>
 <pkg>bayesmix</pkg>
-<pkg>bclust</pkg>
 <pkg>bgmm</pkg>
 <pkg>biclust</pkg>
 <pkg>Bmix</pkg>
