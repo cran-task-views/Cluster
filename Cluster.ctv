@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2013-03-23</version>
+<version>2013-04-06</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -253,6 +253,8 @@ of each package to check under which license it is distributed.</p>
   <li>The <bioc>hopach</bioc> algorithm is a hybrid between
   hierarchical methods and PAM and builds a tree by
   recursively  partitioning a data set.</li>
+  <li>For graphs and networks model-based clustering approaches are
+  implemented in package <pkg>latentnet</pkg>.</li>
   <li>Package <pkg>nnclust</pkg> allows fast clustering of large data sets
   by constructing a minimum spanning tree for each cluster. For each
   cluster the procedure is stopped when the nearest-neighbour distance
@@ -410,6 +412,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>kernlab</pkg>
 <pkg>kml</pkg>
 <pkg>kml3d</pkg>
+<pkg>latentnet</pkg>
 <pkg>lcmm</pkg>
 <pkg>longclust</pkg>
 <pkg>mcclust</pkg>
