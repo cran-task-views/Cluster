@@ -109,6 +109,10 @@ of each package to check under which license it is distributed.</p>
   probability, package <pkg>bgmm</pkg> provides belief-based and
   soft-label mixture modeling for mixtures of Gaussians with the EM
   algorithm.</li> 
+  <li><pkg>EMCluster</pkg> provides EM algorithms and several
+  efficient initialization methods for model-based clustering of
+  finite mixture Gaussian distribution with unstructured dispersion in
+  unsupervised as well as semi-supervised learning situation.</li>
   <li>Package <pkg>FisherEM</pkg> is a subspace clustering method
   which allows for efficient unsupervised classification of
   high-dimensional data. It is based on the Gaussian mixture model and
@@ -170,7 +174,7 @@ of each package to check under which license it is distributed.</p>
   </li>
   <li>Package <pkg>pmclust</pkg> allows to use unsupervised
   model-based clustering for high dimensional (ultra) large data. The
-  package uses <pkg>Rmpi</pkg> to perform a parallel version of the EM
+  package uses <pkg>pbdMPI</pkg> to perform a parallel version of the EM
   algorithm for mixtures of Gaussians.</li>
   <li>Package <pkg>Rmixmod</pkg> provides tools for fitting mixture
   models of multivariate Gaussian or multinomial components to a given
@@ -392,6 +396,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>dpmixsim</pkg>
 <pkg>dynamicTreeCut</pkg>
 <pkg>e1071</pkg>
+<pkg>EMCluster</pkg>
 <pkg>FactoClass</pkg>
 <pkg>flashClust</pkg>
 <pkg>fastcluster</pkg>
