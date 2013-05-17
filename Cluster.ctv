@@ -174,7 +174,7 @@ of each package to check under which license it is distributed.</p>
   </li>
   <li>Package <pkg>pmclust</pkg> allows to use unsupervised
   model-based clustering for high dimensional (ultra) large data. The
-  package uses <pkg>pbdMPI</pkg> to perform a parallel version of the EM
+  package uses pbdMPI to perform a parallel version of the EM
   algorithm for mixtures of Gaussians.</li>
   <li>Package <pkg>Rmixmod</pkg> provides tools for fitting mixture
   models of multivariate Gaussian or multinomial components to a given
