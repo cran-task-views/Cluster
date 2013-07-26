@@ -342,9 +342,6 @@ of each package to check under which license it is distributed.</p>
   <li>Functionality to compare the similarity between two cluster
   solutions is provided by <code>cluster.stats()</code> in package
   <pkg>fpc</pkg>.</li>
-  <li><pkg>clusterCons</pkg> allows to calculate the consensus
-  clustering result from re-sampled clustering experiments with the
-  option of using multiple algorithms and parameters.</li>
   <li>The stability of k-centroid clustering solutions fitted using
   functions from package <pkg>flexclust</pkg> can also be validated
   via <code>bootFlexclust()</code> using bootstrap methods.</li>
@@ -380,7 +377,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>clue</pkg>
 <pkg>clues</pkg>
 <pkg priority="core">cluster</pkg>
-<pkg>clusterCons</pkg>
 <pkg>clusterGeneration</pkg>
 <pkg>clusterRepro</pkg>
 <pkg>clusterSim</pkg>
