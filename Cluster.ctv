@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2013-07-26</version>
+<version>2013-08-01</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -84,10 +84,6 @@ of each package to check under which license it is distributed.</p>
   clustering by <code>specc</code>.</li>
   <li>Packages <pkg>kml</pkg> and <pkg>kml3d</pkg> provide k-means
   clustering specifically for longitudinal (joint) data.</li>
-  <li>Package <pkg>pdfCluster</pkg> provides tools to perform cluster
-  analysis via kernel density estimation. Clusters are associated to
-  the maximally connected components with estimated density above a
-  threshold.</li>
   <li>Package <pkg>skmeans</pkg> allows spherical k-Means Clustering,
    i.e. k-means clustering with cosine similarity. It features several
    methods, including a genetic and a simple fixed-point algorithm and
@@ -218,10 +214,10 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>AdMit</pkg> allows to fit an adaptive mixture of Student-t
   distributions to approximate a target density through its kernel
   function.</li>
-  <li>Robust estimation using Weighted Likelihood can be done with
-  package <pkg>wle</pkg>.</li>
   <li>Package <pkg>pendensity</pkg> estimates densities with a penalized
   mixture approach.</li>
+  <li>Robust estimation using Weighted Likelihood can be done with
+  package <pkg>wle</pkg>.</li>
 </ul>
 </li>
 </ul>
@@ -263,6 +259,11 @@ of each package to check under which license it is distributed.</p>
   set of "outliers" not in any cluster is returned. The algorithm works best for 
   well-separated clusters in up to 8 dimensions, and sample sizes up
   to hundreds of thousands.</li>
+  <li>Package <pkg>pdfCluster</pkg> provides tools to perform cluster
+  analysis via kernel density estimation. Clusters are associated to
+  the maximally connected components with estimated density above a
+  threshold. In addition a tree structure associated with the
+  connected components is obtained.</li>
   <li>Package <pkg>randomLCA</pkg> provides the fitting of latent
   class models which optionally also include a random effect.  Package
   <pkg>poLCA</pkg> allows for polytomous variable latent class
