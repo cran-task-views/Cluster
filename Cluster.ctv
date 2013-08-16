@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2013-08-01</version>
+<version>2013-08-16</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -125,13 +125,19 @@ of each package to check under which license it is distributed.</p>
   structure) from a clustering or classification point of
   view. Package <pkg>longclust</pkg> allows to fit these models as
   well as Gaussian mixture models to longitudinal data.</li>
-  <li>Package <pkg>mclust</pkg> fits mixtures of Gaussians using the EM
-  algorithm. It allows fine control of volume and shape of
-  covariance matrices and agglomerative hierarchical clustering
-  based on maximum likelihood. It provides comprehensive strategies
-  using hierarchical clustering, EM and the Bayesian Information Criterion
+  <li>Package <pkg>mclust</pkg> fits mixtures of Gaussians using the
+  EM algorithm. It allows fine control of volume and shape of
+  covariance matrices and agglomerative hierarchical clustering based
+  on maximum likelihood. It provides comprehensive strategies using
+  hierarchical clustering, EM and the Bayesian Information Criterion
   (BIC) for clustering, density estimation, and discriminant
-  analysis.</li>
+  analysis. Package <pkg>Rmixmod</pkg> provides tools for fitting
+  mixture models of multivariate Gaussian or multinomial components to
+  a given data set with either a clustering, a density estimation or a
+  discriminant analysis point of view. <pkg>mclust</pkg> provides only
+  10 of the 14 possible variance-covariance structures based on the
+  eigenvalue decomposition. All 14 variants are provided by packages
+  <pkg>mixture</pkg> and <pkg>Rmixmod</pkg>.</li>
   <li>Package <pkg>MetabolAnalyze</pkg> fits mixtures of probabilistic
   principal component analysis with the EM algorithm.</li>
   <li>For grouped conditional data package <pkg>mixdist</pkg> can be
@@ -169,10 +175,6 @@ of each package to check under which license it is distributed.</p>
   model-based clustering for high dimensional (ultra) large data. The
   package uses pbdMPI to perform a parallel version of the EM
   algorithm for mixtures of Gaussians.</li>
-  <li>Package <pkg>Rmixmod</pkg> provides tools for fitting mixture
-  models of multivariate Gaussian or multinomial components to a given
-  data set with either a clustering, a density estimation or a
-  discriminant analysis point of view.</li>
 </ul></li>
 <li>Bayesian estimation:
 <ul>
@@ -426,6 +428,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>mixreg</pkg>
 <pkg>MixSim</pkg>
 <pkg>mixtools</pkg>
+<pkg>mixture</pkg>
 <pkg>MOCCA</pkg>
 <pkg>movMF</pkg>
 <pkg>mritc</pkg>
