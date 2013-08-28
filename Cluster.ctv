@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2013-08-16</version>
+<version>2013-08-28</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -112,6 +112,11 @@ of each package to check under which license it is distributed.</p>
   on the idea that the data lives in a common and low dimensional
   subspace. An EM-like algorithm estimates both the discriminative
   subspace and the parameters of the mixture model.</li>
+  <li>Package <pkg>Funclustering</pkg> proposes a model-based
+  clustering algorithm for multivariate functional data. The
+  parametric mixture model, based on the assumption of normality of
+  the principal components resulting from a multivariate functional
+  PCA, is estimated by an EM-like algorithm.</li>
   <li>Package <pkg>HDclassif</pkg> provides function <code>hddc</code>
   to fit Gaussian mixture model to high-dimensional data where it is
   assumed that the data lives in a lower dimension than the original
@@ -186,8 +191,11 @@ of each package to check under which license it is distributed.</p>
   the moments over MCMC draws, for determining the marginal densities,
   for clustering observations and for plotting the uni- and bivariate
   marginal densities.</li>
-  <li>Package
-  <pkg>bayesmix</pkg> provides Bayesian estimation using
+  <li>Package <pkg>bayesMCClust</pkg> provides various Markov Chain
+  Monte Carlo samplers for model-based clustering of discrete-valued
+  time series obtained by observing a categorical variable with
+  several states using a Bayesian approach.</li>
+  <li>Package <pkg>bayesmix</pkg> provides Bayesian estimation using
   JAGS.</li>
   <li>Package <pkg>bclust</pkg> allows Bayesian clustering using a
   spike-and-slab hierarchical model and is suitable for clustering
@@ -369,6 +377,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>bayesclust</pkg>
 <pkg>BayesLCA</pkg>
 <pkg>bayesm</pkg>
+<pkg>bayesMCClust</pkg>
 <pkg>bayesmix</pkg>
 <pkg>bgmm</pkg>
 <pkg>bclust</pkg>
@@ -401,6 +410,7 @@ of each package to check under which license it is distributed.</p>
 <pkg priority="core">flexmix</pkg>
 <pkg>fpc</pkg>
 <pkg>FunCluster</pkg>
+<pkg>Funclustering</pkg>
 <pkg>gamlss.mx</pkg>
 <pkg>gcExplorer</pkg>
 <pkg>GLDEX</pkg>
