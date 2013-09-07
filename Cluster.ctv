@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2013-08-28</version>
+<version>2013-09-07</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -236,8 +236,7 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>amap</pkg> provides alternative implementations
   of k-means and agglomerative hierarchical clustering.</li>
   <li>Package <pkg>biclust</pkg> provides several algorithms to find
-  biclusters in two-dimensional data. Package <pkg>isa2</pkg> provides
-  the Iterative Signature Algorithm (ISA) for biclustering.</li>
+  biclusters in two-dimensional data.</li>
   <li>Package <pkg>cba</pkg> implements clustering techniques for
   business analytics like "rock" and "proximus".</li>
   <li>Package <pkg>CHsharp</pkg> clusters 3-dimensional data into
@@ -418,7 +417,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>HDclassif</pkg>
 <pkg>HMMmix</pkg>
 <pkg>hybridHclust</pkg>
-<pkg>isa2</pkg>
 <pkg>isopam</pkg>
 <pkg>kernlab</pkg>
 <pkg>kml</pkg>
