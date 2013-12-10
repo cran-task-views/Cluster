@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2013-12-04</version>
+<version>2013-12-10</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -216,9 +216,6 @@ of each package to check under which license it is distributed.</p>
 </ul></li>
 <li>Other estimation methods:
 <ul>
-  <li>Package <pkg>AdMit</pkg> allows to fit an adaptive mixture of Student-t
-  distributions to approximate a target density through its kernel
-  function.</li>
   <li>Package <pkg>pendensity</pkg> estimates densities with a penalized
   mixture approach.</li>
   <li>Robust estimation using Weighted Likelihood can be done with
@@ -365,7 +362,6 @@ of each package to check under which license it is distributed.</p>
   </info>
 
 <packagelist>
-<pkg>AdMit</pkg>
 <pkg>amap</pkg>
 <pkg>apcluster</pkg>
 <pkg>bayesclust</pkg>
