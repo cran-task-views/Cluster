@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2013-12-10</version>
+<version>2013-12-12</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modelling unobserved
@@ -92,7 +92,7 @@ of each package to check under which license it is distributed.</p>
   k-means clustering. In addition using this package other covariance
   structures can also be specified for the clusters.</li>
 </ul>
-<p><strong>Model-based Clustering:</strong></p>
+<p><strong>Model-Based Clustering:</strong></p>
 <ul><li>ML estimation:
 <ul>
   <li>For semi- or partially supervised problems, where for a part of
@@ -250,7 +250,7 @@ of each package to check under which license it is distributed.</p>
   hierarchical methods and PAM and builds a tree by
   recursively  partitioning a data set.</li>
   <li>For graphs and networks model-based clustering approaches are
-  implemented in package <pkg>latentnet</pkg>.</li>
+  implemented in packages <pkg>latentnet</pkg> and <pkg>mixer</pkg>.</li>
   <li>Package <pkg>nnclust</pkg> allows fast clustering of large data sets
   by constructing a minimum spanning tree for each cluster. For each
   cluster the procedure is stopped when the nearest-neighbour distance
@@ -258,6 +258,9 @@ of each package to check under which license it is distributed.</p>
   set of "outliers" not in any cluster is returned. The algorithm works best for 
   well-separated clusters in up to 8 dimensions, and sample sizes up
   to hundreds of thousands.</li>
+  <li>Package <pkg>optpart</pkg> contains a set of algorithms for
+  creating partitions and coverings of objects largely based on
+  operations on similarity relations (or matrices).</li>
   <li>Package <pkg>pdfCluster</pkg> provides tools to perform cluster
   analysis via kernel density estimation. Clusters are associated to
   the maximally connected components with estimated density above a
@@ -418,6 +421,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>mixsmsn</pkg>
 <pkg>mixAK</pkg>
 <pkg>mixdist</pkg>
+<pkg>mixer</pkg>
 <pkg>mixPHM</pkg>
 <pkg>mixRasch</pkg>
 <pkg>mixreg</pkg>
@@ -429,6 +433,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>mritc</pkg>
 <pkg>nnclust</pkg>
 <pkg>nor1mix</pkg>
+<pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
 <pkg>pdfCluster</pkg>
 <pkg>pendensity</pkg>
