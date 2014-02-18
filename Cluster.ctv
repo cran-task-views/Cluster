@@ -3,10 +3,10 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-01-27</version>
+<version>2014-02-18</version>
   
 <info> This CRAN Task View contains a list of packages that can be
-used for finding groups in data and modelling unobserved
+used for finding groups in data and modeling unobserved
 cross-sectional heterogeneity. Many packages provide functionality for
 more than one of the topics listed below, the section headings are
 mainly meant as quick starting points rather than an ultimate
@@ -169,7 +169,7 @@ of each package to check under which license it is distributed.</p>
   </li>
   <li>Package <pkg>pmclust</pkg> allows to use unsupervised
   model-based clustering for high dimensional (ultra) large data. The
-  package uses pbdMPI to perform a parallel version of the EM
+  package uses <pkg>pbdMPI</pkg> to perform a parallel version of the EM
   algorithm for mixtures of Gaussians.</li>
 </ul></li>
 <li>Bayesian estimation:
@@ -206,7 +206,7 @@ of each package to check under which license it is distributed.</p>
   sample of (hard) clusterings, e.g. the MCMC output of a Bayesian
   clustering model. Among them are methods that find a single best
   clustering to represent the sample, which are based on the posterior
-  similarity matrix or a relabelling algorithm.</li>
+  similarity matrix or a relabeling algorithm.</li>
   <li>Package <pkg>rjags</pkg> provides an interface to the JAGS
   MCMC library which includes a module for mixture modelling.</li>
 </ul></li>
@@ -254,7 +254,7 @@ of each package to check under which license it is distributed.</p>
   implemented in packages <pkg>latentnet</pkg> and <pkg>mixer</pkg>.</li>
   <li>Package <pkg>nnclust</pkg> allows fast clustering of large data sets
   by constructing a minimum spanning tree for each cluster. For each
-  cluster the procedure is stopped when the nearest-neighbour distance
+  cluster the procedure is stopped when the nearest-neighbor distance
   rises above a specified threshold. A set of clusters and a
   set of "outliers" not in any cluster is returned. The algorithm works best for 
   well-separated clusters in up to 8 dimensions, and sample sizes up
@@ -281,7 +281,7 @@ of each package to check under which license it is distributed.</p>
   <li>Self-organizing maps are available in package
   <pkg>som</pkg>.</li>
   <li>Several packages provide cluster algorithms which have been
-  developped for bioinformatics applications. These packages include
+  developed for bioinformatics applications. These packages include
   <pkg>FunCluster</pkg> for profiling microarray expression data
   and <pkg>ORIClust</pkg>
   for order-restricted information-based clustering.</li>
@@ -320,14 +320,14 @@ of each package to check under which license it is distributed.</p>
   available.</li>
   <li><pkg>mixPHM</pkg> fits mixtures of proportional hazard models
   with the EM algorithm.</li> <li>Package <pkg>gamlss.mx</pkg> fits
-  finite mixtures of of gamlss family distributions.</li> </ul>
+  finite mixtures of <pkg>gamlss</pkg> family distributions.</li> </ul>
 
 <p><strong>Additional Functionality:</strong></p>
 <ul>
   <li>Mixtures of univariate normal distributions can be printed
   and plotted using package <pkg>nor1mix</pkg>.</li>
   <li>Package <pkg>gcExplorer</pkg> allows
-  to visualise the results of clustering algorithms.</li>
+  to visualize the results of clustering algorithms.</li>
   <li>Package <pkg>clusterGeneration</pkg> contains functions for
   generating random clusters and random covariance/correlation
   matrices, calculating a separation index (data and population
@@ -360,6 +360,10 @@ of each package to check under which license it is distributed.</p>
   cluster analysis, model selection, model reliability and
   reproducibility assessment, profiles characterization and validation
   by visual and table summaries.</li>
+  <li>Package <pkg>seriation</pkg> provides <code>dissplot()</code> for
+  visualizing dissimilarity matrices using seriation and matrix shading. 
+  This also allows to inspect cluster quality by restricting objects 
+  belonging to the same cluster to be displayed in consecutive order.</li>
   <li>Package <pkg>sigclust</pkg> provides a statistical method for
   testing the significance of clustering results.</li>
 </ul>
@@ -456,6 +460,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>Rmpi</pkg>
 <pkg>RPMM</pkg>
 <pkg>SDisc</pkg>
+<pkg>seriation</pkg>
 <pkg>sigclust</pkg>
 <pkg>skmeans</pkg>
 <pkg>som</pkg>
