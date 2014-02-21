@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-02-18</version>
+<version>2014-02-21</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -354,12 +354,6 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>MOCCA</pkg> provides methods to analyze cluster
   alternatives based on multi-objective optimization of cluster
   validation indices.</li>
-  <li>Package <pkg>SDisc</pkg> provides an integrated methodology for
-  the identification of homogeneous profiles in a data distribution by
-  including methods for data treatment and pre-processing, repeated
-  cluster analysis, model selection, model reliability and
-  reproducibility assessment, profiles characterization and validation
-  by visual and table summaries.</li>
   <li>Package <pkg>seriation</pkg> provides <code>dissplot()</code> for
   visualizing dissimilarity matrices using seriation and matrix shading. 
   This also allows to inspect cluster quality by restricting objects 
@@ -459,7 +453,6 @@ of each package to check under which license it is distributed.</p>
 <pkg priority="core">Rmixmod</pkg>
 <pkg>Rmpi</pkg>
 <pkg>RPMM</pkg>
-<pkg>SDisc</pkg>
 <pkg>seriation</pkg>
 <pkg>sigclust</pkg>
 <pkg>skmeans</pkg>
