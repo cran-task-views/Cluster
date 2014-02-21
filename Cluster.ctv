@@ -169,7 +169,7 @@ of each package to check under which license it is distributed.</p>
   </li>
   <li>Package <pkg>pmclust</pkg> allows to use unsupervised
   model-based clustering for high dimensional (ultra) large data. The
-  package uses <pkg>pbdMPI</pkg> to perform a parallel version of the EM
+  package uses pbdMPI to perform a parallel version of the EM
   algorithm for mixtures of Gaussians.</li>
 </ul></li>
 <li>Bayesian estimation:
@@ -320,7 +320,7 @@ of each package to check under which license it is distributed.</p>
   available.</li>
   <li><pkg>mixPHM</pkg> fits mixtures of proportional hazard models
   with the EM algorithm.</li> <li>Package <pkg>gamlss.mx</pkg> fits
-  finite mixtures of <pkg>gamlss</pkg> family distributions.</li> </ul>
+  finite mixtures of gamlss family distributions.</li> </ul>
 
 <p><strong>Additional Functionality:</strong></p>
 <ul>
