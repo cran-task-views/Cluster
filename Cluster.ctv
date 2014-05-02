@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-02-21</version>
+<version>2014-05-02</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -198,15 +198,18 @@ of each package to check under which license it is distributed.</p>
   <pkg>profdpm</pkg> determines the maximum posterior estimate for
   product partition models where the Dirichlet process mixture is a
   specific case in the class.</li>
+  <li>Package <pkg>GSM</pkg> fits mixtures of gamma distributions.</li> 
   <li>Package <pkg>mixAK</pkg> contains a mixture of statistical
   methods including the MCMC methods to analyze normal mixtures with
   possibly censored data.  </li>
-  <li>Package <pkg>GSM</pkg> fits mixtures of gamma distributions.</li> 
   <li>Package <pkg>mcclust</pkg> implements methods for processing a
   sample of (hard) clusterings, e.g. the MCMC output of a Bayesian
   clustering model. Among them are methods that find a single best
   clustering to represent the sample, which are based on the posterior
   similarity matrix or a relabeling algorithm.</li>
+  <li>Package <pkg>PReMiuM</pkg> is a package for profile regression,
+  which is a Dirichlet process Bayesian clustering where the response
+  is linked non-parametrically to the covariate profile.</li>
   <li>Package <pkg>rjags</pkg> provides an interface to the JAGS
   MCMC library which includes a module for mixture modelling.</li>
 </ul></li>
