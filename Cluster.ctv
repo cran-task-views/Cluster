@@ -146,10 +146,6 @@ of each package to check under which license it is distributed.</p>
   <li><pkg>mritc</pkg> provides tools for classification using normal
   mixture models and (higher resolution) hidden Markov normal mixture
   models fitted by various methods.</li>
-  <li>Parsimonious Gaussian mixture models allow to fit mixtures of
-  factor analyzers with a constraints on the components of the factor
-  models. Functionality to fit these models is provided in package
-  <pkg>pgmm</pkg>.
   </li>
   <li><pkg>prabclus</pkg> clusters a presence-absence matrix
   object by calculating an MDS 
@@ -438,7 +434,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>ORIClust</pkg>
 <pkg>pdfCluster</pkg>
 <pkg>pendensity</pkg>
-<pkg>pgmm</pkg>
 <pkg>pmclust</pkg>
 <pkg>poLCA</pkg>
 <pkg>prabclus</pkg>
