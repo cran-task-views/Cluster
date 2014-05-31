@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-05-02</version>
+<version>2014-05-31</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -38,11 +38,6 @@ of each package to check under which license it is distributed.</p>
   the classification of ordination scores from isometric feature
   mapping. The classification is performed either as a hierarchical,
   divisive method or as non-hierarchical partitioning.</li>
-  <li>The package <pkg>protoclust</pkg> implements a form of
-  hierarchical clustering that associates a prototypical element with
-  each interior node of the dendrogram.  Using the package's
-  <code>plot()</code> function, one can produce dendrograms that are
-  prototype-labeled and are therefore easier to interpret.</li>
   <li><pkg>pvclust</pkg> is a package for assessing the uncertainty in
   hierarchical cluster analysis. It provides approximately
   unbiased p-values as well as bootstrap p-values.</li>
@@ -449,7 +444,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>prabclus</pkg>
 <pkg>PReMiuM</pkg>
 <pkg>profdpm</pkg>
-<pkg>protoclust</pkg>
 <pkg>psychomix</pkg>
 <pkg>pvclust</pkg>
 <pkg>randomLCA</pkg>
