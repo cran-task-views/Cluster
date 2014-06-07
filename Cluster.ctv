@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-05-31</version>
+<version>2014-06-08</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -319,8 +319,8 @@ of each package to check under which license it is distributed.</p>
 <ul>
   <li>Mixtures of univariate normal distributions can be printed
   and plotted using package <pkg>nor1mix</pkg>.</li>
-  <li>Package <pkg>gcExplorer</pkg> allows
-  to visualize the results of clustering algorithms.</li>
+  <li>Packages <pkg>gcExplorer</pkg> and <pkg>clusterfly</pkg> allow
+  to visualise the results of clustering algorithms.</li>
   <li>Package <pkg>clusterGeneration</pkg> contains functions for
   generating random clusters and random covariance/correlation
   matrices, calculating a separation index (data and population
@@ -374,6 +374,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>CHsharp</pkg>
 <pkg>clue</pkg>
 <pkg priority="core">cluster</pkg>
+<pkg>clusterfly</pkg>
 <pkg>clusterGeneration</pkg>
 <pkg>clusterRepro</pkg>
 <pkg>clusterSim</pkg>
