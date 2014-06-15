@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-06-08</version>
+<version>2014-06-15</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -30,6 +30,12 @@ of each package to check under which license it is distributed.</p>
   <li>Function <code>dendrogram()</code> from stats and associated
   methods can be used for improved visualization for cluster
   dendrograms.</li>
+  <li>The <pkg>dendextend</pkg> package provides functions for easy
+  visualization (coloring labels and branches, etc.), manipulation
+  (rotating, pruning, etc.) and comparison of dendrograms (tangelgrams
+  with heuristics for optimal branch rotations, and tree correlation
+  measures with bootstrap and permutation tests for
+  significance).</li>
   <li>Package <pkg>dynamicTreeCut</pkg> contains methods for detection
   of clusters in hierarchical clustering dendrograms.</li>
   <li><pkg>hybridHclust</pkg> implements hybrid hierarchical
@@ -383,6 +389,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>clValid</pkg>
 <pkg>CoClust</pkg>
 <pkg>compHclust</pkg>
+<pkg>dendextend</pkg>
 <pkg>depmix</pkg>
 <pkg>depmixS4</pkg>
 <pkg>dpmixsim</pkg>
