@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-06-15</version>
+<version>2014-06-22</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -113,10 +113,6 @@ of each package to check under which license it is distributed.</p>
   to fit Gaussian mixture model to high-dimensional data where it is
   assumed that the data lives in a lower dimension than the original
   space.</li>
-  <li>Package <pkg>HMMmix</pkg> allows to fit mixtures of Gaussians
-  with a hidden Markov model for the latent component memberships of
-  the clusters which might be derived by combining components of the
-  mixture.</li>
   <li>Package <pkg>teigen</pkg> allows to fit multivariate
   t-distribution mixture models (with eigen-decomposed covariance
   structure) from a clustering or classification point of
@@ -409,7 +405,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>GLDEX</pkg>
 <pkg>GSM</pkg>
 <pkg>HDclassif</pkg>
-<pkg>HMMmix</pkg>
 <pkg>hybridHclust</pkg>
 <pkg>isopam</pkg>
 <pkg>kernlab</pkg>
