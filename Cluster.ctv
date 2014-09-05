@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-07-29</version>
+<version>2014-09-05</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -299,9 +299,6 @@ of each package to check under which license it is distributed.</p>
   regressions and provides the bootstrap test for the number of
   components.
   </li>
-  <li>Package <pkg>lcmm</pkg> fits a latent class linear mixed model
-  which is also known as growth mixture model or heterogeneous linear
-  mixed model using a maximum likelihood method.</li>
   <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
   parametric and non-parametric (multivariate) mixtures. Parametric
   mixtures include mixtures of multinomials, multivariate normals,
@@ -410,7 +407,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>kml</pkg>
 <pkg>kml3d</pkg>
 <pkg>latentnet</pkg>
-<pkg>lcmm</pkg>
 <pkg>mcclust</pkg>
 <pkg priority="core">mclust</pkg>
 <pkg>MetabolAnalyze</pkg>
