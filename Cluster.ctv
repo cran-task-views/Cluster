@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-09-05</version>
+<version>2014-10-02</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -246,13 +246,6 @@ of each package to check under which license it is distributed.</p>
   recursively  partitioning a data set.</li>
   <li>For graphs and networks model-based clustering approaches are
   implemented in packages <pkg>latentnet</pkg> and <pkg>mixer</pkg>.</li>
-  <li>Package <pkg>nnclust</pkg> allows fast clustering of large data sets
-  by constructing a minimum spanning tree for each cluster. For each
-  cluster the procedure is stopped when the nearest-neighbor distance
-  rises above a specified threshold. A set of clusters and a
-  set of "outliers" not in any cluster is returned. The algorithm works best for 
-  well-separated clusters in up to 8 dimensions, and sample sizes up
-  to hundreds of thousands.</li>
   <li>Package <pkg>optpart</pkg> contains a set of algorithms for
   creating partitions and coverings of objects largely based on
   operations on similarity relations (or matrices).</li>
@@ -424,7 +417,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>MOCCA</pkg>
 <pkg>movMF</pkg>
 <pkg>mritc</pkg>
-<pkg>nnclust</pkg>
 <pkg>nor1mix</pkg>
 <pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
