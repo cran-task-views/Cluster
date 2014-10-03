@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-10-02</version>
+<version>2014-10-03</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -103,6 +103,25 @@ of each package to check under which license it is distributed.</p>
   efficient initialization methods for model-based clustering of
   finite mixture Gaussian distribution with unstructured dispersion in
   unsupervised as well as semi-supervised learning situation.</li>
+  <li>Packages <pkg>funHDDC</pkg>, <pkg>funFEM</pkg> and
+  <pkg>MFDA</pkg> implement model-based functional data
+  analysis.
+  The <pkg>funFEM</pkg> package implements the <pkg>funFEM</pkg>
+  algorithm which allows to cluster time series or, more generally,
+  functional data. It is based on a discriminative functional mixture
+  model which allows the clustering of the data in a unique and
+  discriminative functional subspace. This model presents the
+  advantage to be parsimonious and can therefore handle long time
+  series.
+  The <pkg>funHDDC</pkg> package implements the funHDDC algorithm
+  which allows the clustering of functional data within group-specific
+  functional subspaces. The funHDDC algorithm is based on a functional
+  mixture model which models and clusters the data into group-specific
+  functional subspaces. The approach allows afterward meaningful
+  interpretations by looking at the group-specific functional
+  curves. 
+  The <pkg>MFDA</pkg> package uses a mixed-effects model with a
+  smoothing spline model for modeling functional data.</li>
   <li>Package <pkg>FisherEM</pkg> is a subspace clustering method
   which allows for efficient unsupervised classification of
   high-dimensional data. It is based on the Gaussian mixture model and
@@ -139,8 +158,6 @@ of each package to check under which license it is distributed.</p>
   package <pkg>mixsmsn</pkg>.</li>
   <li>Package <pkg>movMF</pkg> fits finite mixtures of von
   Mises-Fisher distributions with the EM algorithm.</li>
-  <li>Package <pkg>MFDA</pkg> implements model-based functional data
-  analysis.</li>
   <li>Package <pkg>GLDEX</pkg> fits mixtures of generalized lambda
   distributions and for grouped conditional data package
   <pkg>mixdist</pkg> can be used.</li>
@@ -389,6 +406,8 @@ of each package to check under which license it is distributed.</p>
 <pkg priority="core">flexmix</pkg>
 <pkg>fpc</pkg>
 <pkg>FunCluster</pkg>
+<pkg>funFEM</pkg>
+<pkg>funHDDC</pkg>
 <pkg>gamlss.mx</pkg>
 <pkg>gcExplorer</pkg>
 <pkg>GLDEX</pkg>
