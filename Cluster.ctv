@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2014-10-03</version>
+<version>2014-12-02</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -250,8 +250,9 @@ of each package to check under which license it is distributed.</p>
   is based on copula functions and therefore allows to group
   observations according to the multivariate dependence structure of
   the generating process without any assumptions on the margins.</li>
-  <li>Fuzzy clustering and bagged clustering are available in
-  package <pkg>e1071</pkg>.</li>
+  <li>Fuzzy clustering and bagged clustering are available in package
+  <pkg>e1071</pkg>. Further and more extensive tools for fuzzy
+  clustering are available in package <pkg>flcust</pkg>.</li>
   <li>Package <pkg>compHclust</pkg> provides complimentary
   hierarchical clustering which was especially designed for microarray
   data to uncover structures present in the data that arise from
@@ -399,9 +400,10 @@ of each package to check under which license it is distributed.</p>
 <pkg>e1071</pkg>
 <pkg>EMCluster</pkg>
 <pkg>FactoClass</pkg>
-<pkg>flashClust</pkg>
 <pkg>fastcluster</pkg>
+<pkg>fclust</pkg>
 <pkg>FisherEM</pkg>
+<pkg>flashClust</pkg>
 <pkg priority="core">flexclust</pkg>
 <pkg priority="core">flexmix</pkg>
 <pkg>fpc</pkg>
