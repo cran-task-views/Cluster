@@ -259,7 +259,7 @@ of each package to check under which license it is distributed.</p>
   the generating process without any assumptions on the margins.</li>
   <li>Fuzzy clustering and bagged clustering are available in package
   <pkg>e1071</pkg>. Further and more extensive tools for fuzzy
-  clustering are available in package <pkg>flcust</pkg>.</li>
+  clustering are available in package <pkg>fclust</pkg>.</li>
   <li>Package <pkg>compHclust</pkg> provides complimentary
   hierarchical clustering which was especially designed for microarray
   data to uncover structures present in the data that arise from
