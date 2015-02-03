@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2015-01-30</version>
+<version>2015-02-03</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -306,6 +306,14 @@ of each package to check under which license it is distributed.</p>
   
 <p><strong>Cluster-wise Regression:</strong></p>
 <ul>
+  <li>Multigroup mixtures of latent Markov models on mixed categorical
+  and continuous data (including time series) can be fitted using
+  <pkg>depmix</pkg> or <pkg>depmixS4</pkg>. The parameters are
+  optimized using a general purpose optimization routine given linear
+  and nonlinear constraints on the parameters.</li>
+  <li>Package <pkg>flexCWM</pkg> allows for maximum likelihood fitting of
+  cluster-weighted models, a class of mixtures of regression models
+  with random covariates.</li>
   <li>Package <pkg>flexmix</pkg> implements an user-extensible
   framework for EM-estimation of mixtures of regression models,
   including mixtures of (generalized) linear models.</li>
@@ -313,18 +321,13 @@ of each package to check under which license it is distributed.</p>
   model-based clustering and linear regression. A collection of
   asymmetric projection methods can be used to plot various
   aspects of a clustering.</li>
-  <li>Multigroup mixtures of latent Markov models on mixed categorical
-  and continuous data (including time series) can be fitted using
-  <pkg>depmix</pkg> or <pkg>depmixS4</pkg>. The parameters are
-  optimized using a general purpose optimization routine given linear
-  and nonlinear constraints on the parameters.</li>
+  <li>Package <pkg>lcmm</pkg> fits a latent class linear mixed model
+  which is also known as growth mixture model or heterogeneous linear
+  mixed model using a maximum likelihood method.</li>
   <li>Package <pkg>mixreg</pkg> fits mixtures of one-variable
   regressions and provides the bootstrap test for the number of
   components.
   </li>
-  <li>Package <pkg>lcmm</pkg> fits a latent class linear mixed model
-  which is also known as growth mixture model or heterogeneous linear
-  mixed model using a maximum likelihood method.</li>
   <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
   parametric and non-parametric (multivariate) mixtures. Parametric
   mixtures include mixtures of multinomials, multivariate normals,
@@ -420,6 +423,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>FisherEM</pkg>
 <pkg>flashClust</pkg>
 <pkg priority="core">flexclust</pkg>
+<pkg>flexCWM</pkg>
 <pkg priority="core">flexmix</pkg>
 <pkg>fpc</pkg>
 <pkg>FunCluster</pkg>
