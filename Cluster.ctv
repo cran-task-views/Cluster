@@ -474,7 +474,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>randomLCA</pkg>
 <pkg>rjags</pkg>
 <pkg priority="core">Rmixmod</pkg>
-<pkg>Rmpi</pkg>
 <pkg>RPMM</pkg>
 <pkg>seriation</pkg>
 <pkg>sigclust</pkg>
