@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2015-02-03</version>
+<version>2015-03-17</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -160,6 +160,16 @@ of each package to check under which license it is distributed.</p>
   principal component analysis with the EM algorithm.</li>
   <li>For grouped conditional data package <pkg>mixdist</pkg> can be
   used.</li>
+  <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
+  parametric and non-parametric (multivariate) mixtures. Parametric
+  mixtures include mixtures of multinomials, multivariate normals,
+  normals with repeated measures, Poisson regressions and Gaussian
+  regressions (with random effects). Non-parametric mixtures include
+  the univariate semi-parametric case where symmetry is imposed for
+  identifiability and multivariate non-parametric mixtures with
+  conditional independent assumption. In addition fitting mixtures of
+  Gaussian regressions with the Metropolis-Hastings algorithm is
+  available.</li>
   <li>Fitting finite mixtures of uni- and multivariate scale mixtures
   of skew-normal distributions with the EM algorithm is provided by
   package <pkg>mixsmsn</pkg>.</li>
@@ -328,16 +338,6 @@ of each package to check under which license it is distributed.</p>
   regressions and provides the bootstrap test for the number of
   components.
   </li>
-  <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
-  parametric and non-parametric (multivariate) mixtures. Parametric
-  mixtures include mixtures of multinomials, multivariate normals,
-  normals with repeated measures, Poisson regressions and Gaussian
-  regressions (with random effects). Non-parametric mixtures include
-  the univariate semi-parametric case where symmetry is imposed for
-  identifiability and multivariate non-parametric mixtures with
-  conditional independent assumption. In addition fitting mixtures of
-  Gaussian regressions with the Metropolis-Hastings algorithm is
-  available.</li>
   <li><pkg>mixPHM</pkg> fits mixtures of proportional hazard models
   with the EM algorithm.</li> <li>Package <pkg>gamlss.mx</pkg> fits
   finite mixtures of gamlss family distributions.</li> </ul>
