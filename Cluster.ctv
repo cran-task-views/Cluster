@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2015-04-30</version>
+<version>2015-06-18</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -142,7 +142,8 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>teigen</pkg> allows to fit multivariate
   t-distribution mixture models (with eigen-decomposed covariance
   structure) from a clustering or classification point of
-  view.</li>
+  view. Package <pkg>longclust</pkg> allows to fit these models as
+  well as Gaussian mixture models to longitudinal data.</li>
 
   <li>Package <pkg>mclust</pkg> fits mixtures of Gaussians using the EM
   algorithm. It allows fine control of volume and shape of covariance
@@ -298,7 +299,9 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>randomLCA</pkg> provides the fitting of latent
   class models which optionally also include a random effect.  Package
   <pkg>poLCA</pkg> allows for polytomous variable latent class
-  analysis and regression.</li>
+  analysis and regression. <pkg>BayesLCA</pkg> allows to fit Bayesian
+  LCA models employing the EM algorithm, Gibbs sampling or variational
+  Bayes methods.</li>
   <li>Package <pkg>RPMM</pkg> fits recursively partitioned mixture
   models for Beta and Gaussian Mixtures. This is a model-based
   clustering algorithm that returns a hierarchy of classes, similar to
@@ -387,6 +390,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>amap</pkg>
 <pkg>apcluster</pkg>
 <pkg>bayesclust</pkg>
+<pkg>BayesLCA</pkg>
 <pkg>bayesm</pkg>
 <pkg>bayesMCClust</pkg>
 <pkg>bayesmix</pkg>
@@ -438,6 +442,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>kml3d</pkg>
 <pkg>latentnet</pkg>
 <pkg>lcmm</pkg>
+<pkg>longclust</pkg>
 <pkg>mcclust</pkg>
 <pkg priority="core">mclust</pkg>
 <pkg>MetabolAnalyze</pkg>
