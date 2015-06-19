@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2015-06-18</version>
+<version>2015-06-19</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -73,8 +73,6 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>apcluster</pkg> implements Frey's and Dueck's
   Affinity Propagation clustering. The algorithms in the package are analogous
   to the Matlab code published by Frey and Dueck.</li>
-  <li>Package <pkg>bayesclust</pkg> allows to test and search for
-  clusters in a hierarchical Bayes model.</li>
   <li>Package <pkg>clusterSim</pkg> allows to search for the optimal
   clustering procedure for a given dataset.</li>
   <li>Package <pkg>flexclust</pkg> provides k-centroid cluster
@@ -389,7 +387,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>AdMit</pkg>
 <pkg>amap</pkg>
 <pkg>apcluster</pkg>
-<pkg>bayesclust</pkg>
 <pkg>BayesLCA</pkg>
 <pkg>bayesm</pkg>
 <pkg>bayesMCClust</pkg>
