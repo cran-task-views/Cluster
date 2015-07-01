@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2015-06-19</version>
+<version>2015-07-01</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -108,8 +108,8 @@ of each package to check under which license it is distributed.</p>
   efficient initialization methods for model-based clustering of
   finite mixture Gaussian distribution with unstructured dispersion in
   unsupervised as well as semi-supervised learning situation.</li>
-  <li>Packages <pkg>funHDDC</pkg>, <pkg>funFEM</pkg> and
-  <pkg>MFDA</pkg> implement model-based functional data
+  <li>Packages <pkg>funHDDC</pkg> and <pkg>funFEM</pkg>
+  implement model-based functional data
   analysis.
   The <pkg>funFEM</pkg> package implements the <pkg>funFEM</pkg>
   algorithm which allows to cluster time series or, more generally,
