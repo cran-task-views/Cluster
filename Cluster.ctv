@@ -125,8 +125,7 @@ of each package to check under which license it is distributed.</p>
   functional subspaces. The approach allows afterward meaningful
   interpretations by looking at the group-specific functional
   curves. 
-  The <pkg>MFDA</pkg> package uses a mixed-effects model with a
-  smoothing spline model for modeling functional data.</li>
+  </li>
   <li>Package <pkg>FisherEM</pkg> is a subspace clustering method
   which allows for efficient unsupervised classification of
   high-dimensional data. It is based on the Gaussian mixture model and
@@ -443,7 +442,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>mcclust</pkg>
 <pkg priority="core">mclust</pkg>
 <pkg>MetabolAnalyze</pkg>
-<pkg>MFDA</pkg>
 <pkg>mixsmsn</pkg>
 <pkg>mixAK</pkg>
 <pkg>mixdist</pkg>
