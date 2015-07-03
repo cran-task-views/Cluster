@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2015-07-01</version>
+<version>2015-07-03</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -373,6 +373,9 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>MOCCA</pkg> provides methods to analyze cluster
   alternatives based on multi-objective optimization of cluster
   validation indices.</li>
+  <li>Package <pkg>NbClust</pkg> implements 30 different indices which
+  evaluate the cluster structure and should help to determine on a
+  suitable number of clusters.</li>
   <li>Package <pkg>seriation</pkg> provides <code>dissplot()</code> for
   visualizing dissimilarity matrices using seriation and matrix shading. 
   This also allows to inspect cluster quality by restricting objects 
@@ -455,6 +458,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>MOCCA</pkg>
 <pkg>movMF</pkg>
 <pkg>mritc</pkg>
+<pkg>NbClust</pkg>
 <pkg>nor1mix</pkg>
 <pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
