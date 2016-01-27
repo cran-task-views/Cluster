@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2015-07-24</version>
+<version>2016-01-27</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -84,7 +84,7 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>kernlab</pkg> provides a weighted kernel version of
   the k-means algorithm by <code>kkmeans</code> and spectral
   clustering by <code>specc</code>.</li>
-  <li>Packages <pkg>kml</pkg> and <pkg>kml3d</pkg> provide k-means
+  <li>Package <pkg>kml</pkg> provides k-means
   clustering specifically for longitudinal (joint) data.</li>
   <li>Package <pkg>skmeans</pkg> allows spherical k-Means Clustering,
    i.e. k-means clustering with cosine similarity. It features several
@@ -442,7 +442,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>isopam</pkg>
 <pkg>kernlab</pkg>
 <pkg>kml</pkg>
-<pkg>kml3d</pkg>
 <pkg>latentnet</pkg>
 <pkg>lcmm</pkg>
 <pkg>longclust</pkg>
