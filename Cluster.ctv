@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2016-01-27</version>
+<version>2016-03-04</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -56,7 +56,7 @@ of each package to check under which license it is distributed.</p>
   <i>n</i> observations when <i>p</i> variables are available, where
   <i>p</i> &gt;&gt; <i>n</i>. It adaptively chooses a set of variables
   to use in clustering the observations. Sparse K-means clustering and
-  sparse hierarchical clustering are implemented.</li>  
+  sparse hierarchical clustering are implemented.</li>
 </ul>
   
 <p><strong>Partitioning Clustering:</strong></p>
@@ -385,6 +385,11 @@ of each package to check under which license it is distributed.</p>
   belonging to the same cluster to be displayed in consecutive order.</li>
   <li>Package <pkg>sigclust</pkg> provides a statistical method for
   testing the significance of clustering results.</li>
+  <li>Package <pkg>treeClust</pkg> calculates dissimilarities
+  between data points based on their leaf memberships in regression or
+  classification trees for each variable. It also performs the cluster
+  analysis using the resulting dissimilarity matrix with available
+  heuristic clustering algorithms in R.</li>
 </ul>
   </info>
 
@@ -487,6 +492,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>sparcl</pkg>
 <pkg>tclust</pkg>
 <pkg>teigen</pkg>
+<pkg>treeClust</pkg>
 <pkg>trimcluster</pkg>
 <pkg>wle</pkg>
 </packagelist>
