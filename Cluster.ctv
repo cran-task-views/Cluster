@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2016-05-29</version>
+<version>2016-08-18</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -259,6 +259,8 @@ of each package to check under which license it is distributed.</p>
   function.</li>
   <li>Package <pkg>pendensity</pkg> estimates densities with a penalized
   mixture approach.</li>
+  <li>Circular and orthogonal regression clustering using redescending
+  M-estimators is provided by package <pkg>edci</pkg>.</li>
   <li>Robust estimation using Weighted Likelihood can be done with
   package <pkg>wle</pkg>.</li>
 </ul>
@@ -436,6 +438,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>dpmixsim</pkg>
 <pkg>dynamicTreeCut</pkg>
 <pkg>e1071</pkg>
+<pkg>edci</pkg>
 <pkg>EMCluster</pkg>
 <pkg>evclust</pkg>
 <pkg>FactoClass</pkg>
