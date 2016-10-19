@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2016-08-18</version>
+<version>2016-10-19</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -268,6 +268,12 @@ of each package to check under which license it is distributed.</p>
 </ul>
 <p><strong>Other Cluster Algorithms:</strong></p>
 <ul>
+  <li>Package <pkg>ADPclust</pkg> allows to cluster high dimensional
+  data based on a two dimensional decision plot. This density-distance
+  plot plots for each data point the local density against the
+  shortest distance to all observations with a higher local density
+  value. The cluster centroids of this non-iterative procedure can be
+  selected using an interactive or automatic selection mode.</li>
   <li>Package <pkg>amap</pkg> provides alternative implementations
   of k-means and agglomerative hierarchical clustering.</li>
   <li>Package <pkg>biclust</pkg> provides several algorithms to find
@@ -407,6 +413,7 @@ of each package to check under which license it is distributed.</p>
 
 <packagelist>
 <pkg>AdMit</pkg>
+<pkg>ADPclust</pkg>
 <pkg>amap</pkg>
 <pkg>apcluster</pkg>
 <pkg>BayesLCA</pkg>
