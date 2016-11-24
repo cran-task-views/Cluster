@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2016-11-19</version>
+<version>2016-11-24</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -81,6 +81,8 @@ of each package to check under which license it is distributed.</p>
   to the Matlab code published by Frey and Dueck.</li>
   <li>Package <pkg>clusterSim</pkg> allows to search for the optimal
   clustering procedure for a given dataset.</li>
+  <li>Package <pkg>clustMixType</pkg> implements Huang’s k-prototypes
+  extension of k-means for mixed type data.</li>
   <li>Package <pkg>evclust</pkg> implements various clustering
   algorithms that produce a credal partition, i.e., a set of
   Dempster-Shafer mass functions representing the membership of
@@ -438,6 +440,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>clusterGeneration</pkg>
 <pkg>clusterRepro</pkg>
 <pkg>clusterSim</pkg>
+<pkg>clustMixType</pkg>
 <pkg>clustvarsel</pkg>
 <pkg>clv</pkg>
 <pkg>clValid</pkg>
