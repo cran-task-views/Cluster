@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2016-11-24</version>
+<version>2017-01-21</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -259,6 +259,10 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>AdMit</pkg> allows to fit an adaptive mixture of Student-t
   distributions to approximate a target density through its kernel
   function.</li>
+  <li>Package <pkg>CEC</pkg> uses cross-entropy clustering to
+  automatically remove unnecessary clusters, while at the same time
+  allowing the simultaneous use of various types of Gaussian mixture
+  models.</li>
   <li>Package <pkg>pendensity</pkg> estimates densities with a penalized
   mixture approach.</li>
   <li>Circular and orthogonal regression clustering using redescending
@@ -433,6 +437,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>Bmix</pkg>
 <pkg>cba</pkg>
 <pkg>cclust</pkg>
+<pkg>CEC</pkg>
 <pkg>CHsharp</pkg>
 <pkg>clue</pkg>
 <pkg priority="core">cluster</pkg>
