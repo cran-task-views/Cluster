@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2017-01-21</version>
+<version>2017-01-25</version>
   
 <info> This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -234,6 +234,8 @@ of each package to check under which license it is distributed.</p>
   high-dimensional data.</li>
   <li>Package <pkg>Bmix</pkg> provides Bayesian Sampling for
   stick-breaking mixtures.</li>
+  <li>Package <pkg>bmixture</pkg> provides Bayesian estimation of
+   finite mixtures of univariate Gamma and normal distributions.</li>
   <li>Package <pkg>dpmixsim</pkg> fits Dirichlet process mixture
   models using conjugate models with normal structure. Package
   <pkg>profdpm</pkg> determines the maximum posterior estimate for
@@ -435,6 +437,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>bclust</pkg>
 <pkg>biclust</pkg>
 <pkg>Bmix</pkg>
+<pkg>bmixture</pkg>
 <pkg>cba</pkg>
 <pkg>cclust</pkg>
 <pkg>CEC</pkg>
