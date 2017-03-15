@@ -3,16 +3,16 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2017-01-25</version>
+<version>2017-03-15</version>
   
-<info> This CRAN Task View contains a list of packages that can be
+<info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
 cross-sectional heterogeneity. Many packages provide functionality for
 more than one of the topics listed below, the section headings are
 mainly meant as quick starting points rather than an ultimate
 categorization. Except for packages stats and cluster (which ship with
 base R and hence are part of every R installation), each package is
-listed only once.
+listed only once.</p>
 <p>Most of the packages listed in this CRAN Task View, but not all are
 distributed under the GPL. Please have a look at the DESCRIPTION file
 of each package to check under which license it is distributed.</p>
@@ -46,6 +46,11 @@ of each package to check under which license it is distributed.</p>
   sets.</li>
   <li><pkg>hybridHclust</pkg> implements hybrid hierarchical
   clustering via mutual clusters.</li>
+  <li>Package <pkg>idendr0</pkg> allows to interactively explore
+  hierarchical clustering dendrograms and the clustered data. The data
+  can be visualized (and interacted with) in a built-in heat map, but
+  also in GGobi dynamic interactive graphics (provided by
+  <pkg>rggobi</pkg>), or base R plots.</li>
   <li>Package <pkg>isopam</pkg> uses an algorithm which is based on
   the classification of ordination scores from isometric feature
   mapping. The classification is performed either as a hierarchical,
@@ -482,6 +487,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>GSM</pkg>
 <pkg>HDclassif</pkg>
 <pkg>hybridHclust</pkg>
+<pkg>idendr0</pkg>
 <pkg>isopam</pkg>
 <pkg>kernlab</pkg>
 <pkg>kml</pkg>
