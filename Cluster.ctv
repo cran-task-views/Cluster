@@ -50,7 +50,7 @@ of each package to check under which license it is distributed.</p>
   hierarchical clustering dendrograms and the clustered data. The data
   can be visualized (and interacted with) in a built-in heat map, but
   also in GGobi dynamic interactive graphics (provided by
-  <pkg>rggobi</pkg>), or base R plots.</li>
+  rggobi), or base R plots.</li>
   <li>Package <pkg>isopam</pkg> uses an algorithm which is based on
   the classification of ordination scores from isometric feature
   mapping. The classification is performed either as a hierarchical,
