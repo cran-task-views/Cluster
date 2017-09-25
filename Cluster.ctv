@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2017-05-03</version>
+<version>2017-09-25</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -309,7 +309,7 @@ of each package to check under which license it is distributed.</p>
   hierarchical clustering which was especially designed for microarray
   data to uncover structures present in the data that arise from
   'weak' genes.</li>
-  <li>Package <pkg>dbscan</pkg> provides a fast reimplementaiton of
+  <li>Package <pkg>dbscan</pkg> provides a fast reimplementation of
   the DBSCAN (density-based spatial clustering of applications with
   noise) algorithm using a kd-tree.</li>
   <li>Package <pkg>FactoClass</pkg> performs a combination of
@@ -389,7 +389,7 @@ of each package to check under which license it is distributed.</p>
   <li>Mixtures of univariate normal distributions can be printed
   and plotted using package <pkg>nor1mix</pkg>.</li>
   <li>Package <pkg>clusterfly</pkg> allows
-  to visualise the results of clustering algorithms.</li>
+  to visualize the results of clustering algorithms.</li>
   <li>Package <pkg>clusterGeneration</pkg> contains functions for
   generating random clusters and random covariance/correlation
   matrices, calculating a separation index (data and population
