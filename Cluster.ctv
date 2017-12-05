@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2017-09-25</version>
+<version>2017-12-05</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -323,7 +323,7 @@ of each package to check under which license it is distributed.</p>
   OPTICS algorithms are provided in combination with a very fast search
   for approximate nearest neighbors and outlier detection.</li>
   <li>For graphs and networks model-based clustering approaches are
-  implemented in packages <pkg>latentnet</pkg> and <pkg>mixer</pkg>.</li>
+  implemented in <pkg>latentnet</pkg>.</li>
   <li>Package <pkg>optpart</pkg> contains a set of algorithms for
   creating partitions and coverings of objects largely based on
   operations on similarity relations (or matrices).</li>
@@ -505,7 +505,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>mixsmsn</pkg>
 <pkg>mixAK</pkg>
 <pkg>mixdist</pkg>
-<pkg>mixer</pkg>
 <pkg>mixPHM</pkg>
 <pkg>mixRasch</pkg>
 <pkg>mixreg</pkg>
