@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2018-02-28</version>
+<version>2018-03-09</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -189,6 +189,12 @@ of each package to check under which license it is distributed.</p>
   <li>Fitting finite mixtures of uni- and multivariate scale mixtures
   of skew-normal distributions with the EM algorithm is provided by
   package <pkg>mixsmsn</pkg>.</li>
+  <li>Package <pkg>MoEClust</pkg> fits parsimonious finite
+  multivariate Gaussian mixtures of experts models via the EM
+  algorithm. Covariates may influence the mixing proportions and/or
+  component densities and all 14 constrained covariance
+  parameterizations from package <pkg>mclust</pkg> are
+  implemented.</li>
   <li>Package <pkg>movMF</pkg> fits finite mixtures of von
   Mises-Fisher distributions with the EM algorithm.</li>
   <li>Package <pkg>GLDEX</pkg> fits mixtures of generalized lambda
@@ -246,6 +252,12 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>mixAK</pkg> contains a mixture of statistical
   methods including the MCMC methods to analyze normal mixtures with
   possibly censored data.  </li>
+  <li>Package <pkg>IMIFA</pkg> fits Infinite Mixtures of Infinite
+  Factor Analyzers and a flexible suite of related models for
+  clustering high-dimensional data. The number of clusters
+  and/or number of cluster-specific latent factors can be
+  non-parametrically inferred, without recourse to model selection
+  criteria.</li>
   <li>Package <pkg>mcclust</pkg> implements methods for processing a
   sample of (hard) clusterings, e.g. the MCMC output of a Bayesian
   clustering model. Among them are methods that find a single best
@@ -493,6 +505,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>HDclassif</pkg>
 <pkg>hybridHclust</pkg>
 <pkg>idendr0</pkg>
+<pkg>IMIFA</pkg>
 <pkg>isopam</pkg>
 <pkg>kernlab</pkg>
 <pkg>kml</pkg>
@@ -514,6 +527,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>mixtools</pkg>
 <pkg>mixture</pkg>
 <pkg>MOCCA</pkg>
+<pkg>MoEClust</pkg>
 <pkg>movMF</pkg>
 <pkg>mritc</pkg>
 <pkg>NbClust</pkg>
