@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2018-03-09</version>
+<version>2018-05-04</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -143,12 +143,6 @@ of each package to check under which license it is distributed.</p>
   interpretations by looking at the group-specific functional
   curves. 
   </li>
-  <li>Package <pkg>FisherEM</pkg> is a subspace clustering method
-  which allows for efficient unsupervised classification of
-  high-dimensional data. It is based on the Gaussian mixture model and
-  on the idea that the data lives in a common and low dimensional
-  subspace. An EM-like algorithm estimates both the discriminative
-  subspace and the parameters of the mixture model.</li>
   <li>Package <pkg>HDclassif</pkg> provides function <code>hddc</code>
   to fit Gaussian mixture model to high-dimensional data where it is
   assumed that the data lives in a lower dimension than the original
@@ -489,7 +483,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>FactoClass</pkg>
 <pkg>fastcluster</pkg>
 <pkg>fclust</pkg>
-<pkg>FisherEM</pkg>
 <pkg>flashClust</pkg>
 <pkg priority="core">flexclust</pkg>
 <pkg>flexCWM</pkg>
