@@ -272,8 +272,6 @@ of each package to check under which license it is distributed.</p>
   automatically remove unnecessary clusters, while at the same time
   allowing the simultaneous use of various types of Gaussian mixture
   models.</li>
-  <li>Package <pkg>pendensity</pkg> estimates densities with a penalized
-  mixture approach.</li>
   <li>Circular and orthogonal regression clustering using redescending
   M-estimators is provided by package <pkg>edci</pkg>.</li>
   <li>Robust estimation using Weighted Likelihood can be done with
@@ -528,7 +526,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
 <pkg>pdfCluster</pkg>
-<pkg>pendensity</pkg>
 <pkg>pmclust</pkg>
 <pkg>poLCA</pkg>
 <pkg>prabclus</pkg>
