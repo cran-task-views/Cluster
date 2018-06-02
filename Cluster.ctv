@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2018-05-04</version>
+<version>2018-06-02</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -274,8 +274,6 @@ of each package to check under which license it is distributed.</p>
   models.</li>
   <li>Circular and orthogonal regression clustering using redescending
   M-estimators is provided by package <pkg>edci</pkg>.</li>
-  <li>Robust estimation using Weighted Likelihood can be done with
-  package <pkg>wle</pkg>.</li>
 </ul>
 </li>
 </ul>
@@ -550,7 +548,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>treeClust</pkg>
 <pkg>trimcluster</pkg>
 <pkg>VarSelLCM</pkg>
-<pkg>wle</pkg>
 </packagelist>
 
 <links>
