@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2018-06-02</version>
+<version>2018-06-12</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -315,11 +315,6 @@ of each package to check under which license it is distributed.</p>
   <li>The <bioc>hopach</bioc> algorithm is a hybrid between
   hierarchical methods and PAM and builds a tree by
   recursively  partitioning a data set.</li>
-  <li>Package <pkg>largeVis</pkg> implements the algorithm of the same
-  name for visualizing very large high-dimensional datasets. Regarding
-  clustering optimized implementations of the HDBSCAN*, DBSCAN and
-  OPTICS algorithms are provided in combination with a very fast search
-  for approximate nearest neighbors and outlier detection.</li>
   <li>For graphs and networks model-based clustering approaches are
   implemented in <pkg>latentnet</pkg>.</li>
   <li>Package <pkg>optpart</pkg> contains a set of algorithms for
@@ -498,7 +493,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>isopam</pkg>
 <pkg>kernlab</pkg>
 <pkg>kml</pkg>
-<pkg>largeVis</pkg>
 <pkg>latentnet</pkg>
 <pkg>LCAvarsel</pkg>
 <pkg>lcmm</pkg>
