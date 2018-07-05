@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2018-06-12</version>
+<version>2018-07-05</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -143,6 +143,9 @@ of each package to check under which license it is distributed.</p>
   interpretations by looking at the group-specific functional
   curves. 
   </li>
+  <li>Package <pkg>GLDEX</pkg> fits mixtures of generalized lambda
+  distributions and for grouped conditional data package
+  <pkg>mixdist</pkg> can be used.</li>
   <li>Package <pkg>HDclassif</pkg> provides function <code>hddc</code>
   to fit Gaussian mixture model to high-dimensional data where it is
   assumed that the data lives in a lower dimension than the original
@@ -170,6 +173,12 @@ of each package to check under which license it is distributed.</p>
   principal component analysis with the EM algorithm.</li>
   <li>For grouped conditional data package <pkg>mixdist</pkg> can be
   used.</li>
+  <li>Package <pkg>MixAll</pkg> provides EM estimation of diagonal
+  Gaussian, gamma, Poisson and categorical mixtures combined based on
+  the conditional independence assumption using different EM variants
+  and allowing for missing observations. The package accesses the
+  clustering part of the Statistical ToolKit <a
+  href="https://www.stkpp.org/">STK++</a>.  </li>
   <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
   parametric and non-parametric (multivariate) mixtures. Parametric
   mixtures include mixtures of multinomials, multivariate normals,
@@ -191,9 +200,6 @@ of each package to check under which license it is distributed.</p>
   implemented.</li>
   <li>Package <pkg>movMF</pkg> fits finite mixtures of von
   Mises-Fisher distributions with the EM algorithm.</li>
-  <li>Package <pkg>GLDEX</pkg> fits mixtures of generalized lambda
-  distributions and for grouped conditional data package
-  <pkg>mixdist</pkg> can be used.</li>
   <li><pkg>mritc</pkg> provides tools for classification using normal
   mixture models and (higher resolution) hidden Markov normal mixture
   models fitted by various methods.</li>
@@ -243,9 +249,6 @@ of each package to check under which license it is distributed.</p>
   product partition models where the Dirichlet process mixture is a
   specific case in the class.</li>
   <li>Package <pkg>GSM</pkg> fits mixtures of gamma distributions.</li> 
-  <li>Package <pkg>mixAK</pkg> contains a mixture of statistical
-  methods including the MCMC methods to analyze normal mixtures with
-  possibly censored data.  </li>
   <li>Package <pkg>IMIFA</pkg> fits Infinite Mixtures of Infinite
   Factor Analyzers and a flexible suite of related models for
   clustering high-dimensional data. The number of clusters
@@ -257,6 +260,9 @@ of each package to check under which license it is distributed.</p>
   clustering model. Among them are methods that find a single best
   clustering to represent the sample, which are based on the posterior
   similarity matrix or a relabeling algorithm.</li>
+  <li>Package <pkg>mixAK</pkg> contains a mixture of statistical
+  methods including the MCMC methods to analyze normal mixtures with
+  possibly censored data.  </li>
   <li>Package <pkg>PReMiuM</pkg> is a package for profile regression,
   which is a Dirichlet process Bayesian clustering where the response
   is linked non-parametrically to the covariate profile.</li>
@@ -502,6 +508,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>MetabolAnalyze</pkg>
 <pkg>mixsmsn</pkg>
 <pkg>mixAK</pkg>
+<pkg>MixAll</pkg>
 <pkg>mixdist</pkg>
 <pkg>mixPHM</pkg>
 <pkg>mixRasch</pkg>
