@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2018-07-05</version>
+<version>2018-07-21</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -63,11 +63,6 @@ of each package to check under which license it is distributed.</p>
   <li><pkg>pvclust</pkg> is a package for assessing the uncertainty in
   hierarchical cluster analysis. It provides approximately
   unbiased p-values as well as bootstrap p-values.</li>
-  <li>Package <pkg>sparcl</pkg> provides clustering for a set of
-  <i>n</i> observations when <i>p</i> variables are available, where
-  <i>p</i> &gt;&gt; <i>n</i>. It adaptively chooses a set of variables
-  to use in clustering the observations. Sparse k-means clustering and
-  sparse hierarchical clustering are implemented.</li>
 </ul>
   
 <p><strong>Partitioning Clustering:</strong></p>
@@ -543,7 +538,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>sigclust</pkg>
 <pkg>skmeans</pkg>
 <pkg>som</pkg>
-<pkg>sparcl</pkg>
 <pkg>tclust</pkg>
 <pkg>teigen</pkg>
 <pkg>treeClust</pkg>
