@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2018-07-21</version>
+<version>2019-01-14</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -79,9 +79,15 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>apcluster</pkg> implements Frey's and Dueck's
   Affinity Propagation clustering. The algorithms in the package are analogous
   to the Matlab code published by Frey and Dueck.</li>
+  <li>Package <pkg>ClusterR</pkg> implements k-means,
+  mini-batch-kmeans, k-medoids, affinity propagation clustering and
+  Gaussian mixture models with the option to plot, validate, predict
+  (new data) and estimate the optimal number of clusters. The package
+  takes advantage of <pkg>RcppArmadillo</pkg> to speed up the
+  computationally intensive parts of the functions.</li>
   <li>Package <pkg>clusterSim</pkg> allows to search for the optimal
   clustering procedure for a given dataset.</li>
-  <li>Package <pkg>clustMixType</pkg> implements Huang’s k-prototypes
+  <li>Package <pkg>clustMixType</pkg> implements Huang's k-prototypes
   extension of k-means for mixed type data.</li>
   <li>Package <pkg>evclust</pkg> implements various clustering
   algorithms that produce a credal partition, i.e., a set of
@@ -393,6 +399,9 @@ of each package to check under which license it is distributed.</p>
   with Gaussian components for prespecified levels of maximum and/or
   average overlaps. This model can be used to simulate data for
   studying the performance of cluster algorithms.</li>
+  <li>Package <pkg>clusterCrit</pkg> computes various clustering
+  validation or quality criteria and partition comparison
+  indices.</li>
   <li>For cluster validation package <pkg>clusterRepro</pkg> tests the
   reproducibility of a cluster. Package <pkg>clv</pkg> contains
   popular internal and external cluster validation methods ready to
@@ -452,8 +461,10 @@ of each package to check under which license it is distributed.</p>
 <pkg>CHsharp</pkg>
 <pkg>clue</pkg>
 <pkg priority="core">cluster</pkg>
+<pkg>clusterCrit</pkg>
 <pkg>clusterfly</pkg>
 <pkg>clusterGeneration</pkg>
+<pkg>ClusterR</pkg>
 <pkg>clusterRepro</pkg>
 <pkg>clusterSim</pkg>
 <pkg>clustMixType</pkg>
