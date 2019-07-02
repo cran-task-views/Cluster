@@ -83,7 +83,7 @@ of each package to check under which license it is distributed.</p>
   mini-batch-kmeans, k-medoids, affinity propagation clustering and
   Gaussian mixture models with the option to plot, validate, predict
   (new data) and estimate the optimal number of clusters. The package
-  takes advantage of <pkg>RcppArmadillo</pkg> to speed up the
+  takes advantage of RcppArmadillo to speed up the
   computationally intensive parts of the functions.</li>
   <li>Package <pkg>clusterSim</pkg> allows to search for the optimal
   clustering procedure for a given dataset.</li>
