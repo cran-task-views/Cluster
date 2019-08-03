@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2019-07-02</version>
+<version>2019-08-04</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -365,9 +365,6 @@ of each package to check under which license it is distributed.</p>
   <pkg>depmix</pkg> or <pkg>depmixS4</pkg>. The parameters are
   optimized using a general purpose optimization routine given linear
   and nonlinear constraints on the parameters.</li>
-  <li>Package <pkg>flexCWM</pkg> allows for maximum likelihood fitting of
-  cluster-weighted models, a class of mixtures of regression models
-  with random covariates.</li>
   <li>Package <pkg>flexmix</pkg> implements an user-extensible
   framework for EM-estimation of mixtures of regression models,
   including mixtures of (generalized) linear models.</li>
@@ -490,7 +487,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>fclust</pkg>
 <pkg>flashClust</pkg>
 <pkg priority="core">flexclust</pkg>
-<pkg>flexCWM</pkg>
 <pkg priority="core">flexmix</pkg>
 <pkg>fpc</pkg>
 <pkg>FunCluster</pkg>
