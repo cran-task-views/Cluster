@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2019-08-26</version>
+<version>2019-08-28</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -271,6 +271,10 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>mixAK</pkg> contains a mixture of statistical
   methods including the MCMC methods to analyze normal mixtures with
   possibly censored data.  </li>
+  <li>Package <pkg>NPflow</pkg> fits Dirichlet process mixtures of
+  multivariate normal, skew normal or skew t-distributions. The
+  package was developed oriented towards flow-cytometry data
+  preprocessing applications. </li>
   <li>Package <pkg>PReMiuM</pkg> is a package for profile regression,
   which is a Dirichlet process Bayesian clustering where the response
   is linked non-parametrically to the covariate profile.</li>
@@ -532,6 +536,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>mritc</pkg>
 <pkg>NbClust</pkg>
 <pkg>nor1mix</pkg>
+<pkg>NPflow</pkg>
 <pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
 <pkg>pdfCluster</pkg>
