@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2019-11-12</version>
+<version>2019-12-20</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -222,10 +222,6 @@ of each package to check under which license it is distributed.</p>
   including the dichotomous Rasch model, the rating scale model, and
   the partial credit model with joint maximum likelihood estimation.
   </li>
-  <li>Package <pkg>pmclust</pkg> allows to use unsupervised
-  model-based clustering for high dimensional (ultra) large data. The
-  package uses pbdMPI to perform a parallel version of the EM
-  algorithm for mixtures of Gaussians.</li>
   <li>Package <pkg>rebmix</pkg> implements the REBMIX algorithm to fit
   mixtures of conditionally independent normal, lognormal, Weibull,
   gamma, binomial, Poisson, Dirac or von Mises component densities as
@@ -538,7 +534,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>optpart</pkg>
 <pkg>ORIClust</pkg>
 <pkg>pdfCluster</pkg>
-<pkg>pmclust</pkg>
 <pkg>poLCA</pkg>
 <pkg>prabclus</pkg>
 <pkg>prcr</pkg>
