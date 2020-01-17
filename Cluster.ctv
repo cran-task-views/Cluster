@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2019-12-20</version>
+<version>2002-01-17</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -240,9 +240,6 @@ of each package to check under which license it is distributed.</p>
   marginal densities.</li>
   <li>Package <pkg>bayesmix</pkg> provides Bayesian estimation using
   JAGS.</li>
-  <li>Package <pkg>bclust</pkg> allows Bayesian clustering using a
-  spike-and-slab hierarchical model and is suitable for clustering
-  high-dimensional data.</li>
   <li>Package <pkg>Bmix</pkg> provides Bayesian Sampling for
   stick-breaking mixtures.</li>
   <li>Package <pkg>bmixture</pkg> provides Bayesian estimation of
@@ -455,7 +452,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>bayesm</pkg>
 <pkg>bayesmix</pkg>
 <pkg>bgmm</pkg>
-<pkg>bclust</pkg>
 <pkg>biclust</pkg>
 <pkg>Bmix</pkg>
 <pkg>bmixture</pkg>
