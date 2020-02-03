@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
-<version>2002-01-17</version>
+<version>2002-02-02</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -115,8 +115,7 @@ of each package to check under which license it is distributed.</p>
    clusters. The method is sufficiently flexible to cluster a wide
    range of Gaussian and non-Gaussian structures with automatic
    selection of K.</li>
-  <li>Package <pkg>trimcluster</pkg> provides trimmed k-means
-  clustering. Package <pkg>tclust</pkg> also allows for trimmed
+  <li>Package <pkg>tclust</pkg> allows for trimmed
   k-means clustering. In addition using this package other covariance
   structures can also be specified for the clusters.</li>
 </ul>
@@ -548,7 +547,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>tclust</pkg>
 <pkg>teigen</pkg>
 <pkg>treeClust</pkg>
-<pkg>trimcluster</pkg>
 <pkg>VarSelLCM</pkg>
 </packagelist>
 
