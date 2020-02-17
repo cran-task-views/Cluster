@@ -2,7 +2,7 @@
 
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
-<maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch and Bettina Gruen</maintainer>
+<maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch, Bettina Gruen</maintainer>
 <version>2002-02-02</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
