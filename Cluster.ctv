@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2002-02-02</version>
+<version>2002-02-20</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -44,8 +44,6 @@ of each package to check under which license it is distributed.</p>
   measure to robustify the linkage method while retaining
   computational efficiency to allow for the use of larger data
   sets.</li>
-  <li><pkg>hybridHclust</pkg> implements hybrid hierarchical
-  clustering via mutual clusters.</li>
   <li>Package <pkg>idendr0</pkg> allows to interactively explore
   hierarchical clustering dendrograms and the clustered data. The data
   can be visualized (and interacted with) in a built-in heat map, but
@@ -494,7 +492,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>GMCM</pkg>
 <pkg>GSM</pkg>
 <pkg>HDclassif</pkg>
-<pkg>hybridHclust</pkg>
 <pkg>idendr0</pkg>
 <pkg>IMIFA</pkg>
 <pkg>isopam</pkg>
