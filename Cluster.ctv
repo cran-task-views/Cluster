@@ -241,10 +241,6 @@ of each package to check under which license it is distributed.</p>
   stick-breaking mixtures.</li>
   <li>Package <pkg>bmixture</pkg> provides Bayesian estimation of
    finite mixtures of univariate Gamma and normal distributions.</li>
-  <li>Package
-  <pkg>profdpm</pkg> determines the maximum posterior estimate for
-  product partition models where the Dirichlet process mixture is a
-  specific case in the class.</li>
   <li>Package <pkg>GSM</pkg> fits mixtures of gamma distributions.</li> 
   <li>Package <pkg>IMIFA</pkg> fits Infinite Mixtures of Infinite
   Factor Analyzers and a flexible suite of related models for
@@ -526,7 +522,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>prabclus</pkg>
 <pkg>prcr</pkg>
 <pkg>PReMiuM</pkg>
-<pkg>profdpm</pkg>
 <pkg>protoclust</pkg>
 <pkg>psychomix</pkg>
 <pkg>pvclust</pkg>
