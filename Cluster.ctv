@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2020-03-01</version>
+<version>2020-04-10</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -346,8 +346,7 @@ of each package to check under which license it is distributed.</p>
   hierarchical clustering, but also similar to finite mixture
   models.</li>
   <li>Self-organizing maps are available in package
-  <pkg>som</pkg>. Package <pkg>somspace</pkg> uses self-organizing maps
-  and complex networks to classify time series in space.</li>
+  <pkg>som</pkg>.</li>
   <li>Several packages provide cluster algorithms which have been
   developed for bioinformatics applications. These packages include
   <pkg>FunCluster</pkg> for profiling microarray expression data
@@ -540,7 +539,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>sigclust</pkg>
 <pkg>skmeans</pkg>
 <pkg>som</pkg>
-<pkg>somspace</pkg>
 <pkg>Spectrum</pkg>
 <pkg>tclust</pkg>
 <pkg>teigen</pkg>
