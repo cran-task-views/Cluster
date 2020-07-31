@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2020-07-17</version>
+<version>2020-07-31</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -38,7 +38,7 @@ of each package to check under which license it is distributed.</p>
   significance).</li>
   <li>Package <pkg>dynamicTreeCut</pkg> contains methods for detection
   of clusters in hierarchical clustering dendrograms.</li>
-  <li>Package <pkg>genie</pkg> implements a fast hierarchical
+  <li>Package <pkg>genieclust</pkg> implements a fast hierarchical
   clustering algorithm with a linkage criterion which is a variant of
   the single linkage method combining it with the Gini inequality
   measure to robustify the linkage method while retaining
@@ -485,7 +485,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>funFEM</pkg>
 <pkg>funHDDC</pkg>
 <pkg>gamlss.mx</pkg>
-<pkg>genie</pkg>
+<pkg>genieclust</pkg>
 <pkg>GLDEX</pkg>
 <pkg>GMCM</pkg>
 <pkg>GSM</pkg>
