@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2020-07-31</version>
+<version>2020-08-25</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -334,6 +334,10 @@ of each package to check under which license it is distributed.</p>
   where first hierarchical clustering is performed to determine the
   initial partition for the subsequent k-means clustering
   procedure.</li>
+  <li>Package <pkg>ProjectionBasedClustering</pkg> implements
+  projection-based clustering (PBC) for high-dimensional datasets in
+  which clusters are formed by both distance and density structures
+  (DDS).</li>
   <li>Package <pkg>randomLCA</pkg> provides the fitting of latent
   class models which optionally also include a random effect.  Package
   <pkg>poLCA</pkg> allows for polytomous variable latent class
@@ -524,6 +528,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>prabclus</pkg>
 <pkg>prcr</pkg>
 <pkg>PReMiuM</pkg>
+<pkg>ProjectionBasedClustering</pkg>
 <pkg>protoclust</pkg>
 <pkg>psychomix</pkg>
 <pkg>pvclust</pkg>
