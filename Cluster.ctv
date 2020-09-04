@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@jku.at">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2020-08-25</version>
+<version>2020-09-04</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -380,8 +380,8 @@ of each package to check under which license it is distributed.</p>
   components.
   </li>
   <li><pkg>mixPHM</pkg> fits mixtures of proportional hazard models
-  with the EM algorithm.</li> <li>Package <pkg>gamlss.mx</pkg> fits
-  finite mixtures of gamlss family distributions.</li> </ul>
+  with the EM algorithm.</li>
+  </ul>
 
 <p><strong>Additional Functionality:</strong></p>
 <ul>
@@ -488,7 +488,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>FunCluster</pkg>
 <pkg>funFEM</pkg>
 <pkg>funHDDC</pkg>
-<pkg>gamlss.mx</pkg>
 <pkg>genieclust</pkg>
 <pkg>GLDEX</pkg>
 <pkg>GMCM</pkg>
