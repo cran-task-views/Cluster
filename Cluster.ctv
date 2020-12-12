@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@R-project.org">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2020-12-09</version>
+<version>2020-12-12</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -280,7 +280,7 @@ of each package to check under which license it is distributed.</p>
 </ul>
 </li>
 </ul>
-<p><strong>Other Cluster Algorithms:</strong></p>
+<p><strong>Other Cluster Algorithms and Clustering Suites:</strong></p>
 <ul>
   <li>Package <pkg>ADPclust</pkg> allows to cluster high dimensional
   data based on a two dimensional decision plot. This density-distance
@@ -303,6 +303,10 @@ of each package to check under which license it is distributed.</p>
   is based on copula functions and therefore allows to group
   observations according to the multivariate dependence structure of
   the generating process without any assumptions on the margins.</li>
+  <li>Package <pkg>compHclust</pkg> provides complimentary
+  hierarchical clustering which was especially designed for microarray
+  data to uncover structures present in the data that arise from
+  'weak' genes.</li>
   <li>Package <pkg>DatabionicSwarm</pkg> implements a swarm system
   called Databionic swarm (DBS) for self-organized clustering.  This
   method is able to adapt itself to structures of high-dimensional
@@ -314,12 +318,14 @@ of each package to check under which license it is distributed.</p>
   <li>Fuzzy clustering and bagged clustering are available in package
   <pkg>e1071</pkg>. Further and more extensive tools for fuzzy
   clustering are available in package <pkg>fclust</pkg>.</li>
-  <li>Package <pkg>compHclust</pkg> provides complimentary
-  hierarchical clustering which was especially designed for microarray
-  data to uncover structures present in the data that arise from
-  'weak' genes.</li>
   <li>Package <pkg>FactoClass</pkg> performs a combination of
   factorial methods and cluster analysis.</li>
+  <li>Package <pkg>FCPS</pkg> provides many conventional clustering
+  algorithms with consistent input and output, several statistical
+  approaches for the estimation of the number of clusters as well as
+  the mirrored density plot (MD-plot) of clusterability and offers a
+  variety of clustering challenges any algorithm should be able to handle
+  when facing real world data.</li>
   <li>The <bioc>hopach</bioc> algorithm is a hybrid between
   hierarchical methods and PAM and builds a tree by
   recursively  partitioning a data set.</li>
@@ -485,6 +491,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>FactoClass</pkg>
 <pkg>fastcluster</pkg>
 <pkg>fclust</pkg>
+<pkg>FCPS</pkg>
 <pkg>flashClust</pkg>
 <pkg priority="core">flexclust</pkg>
 <pkg priority="core">flexmix</pkg>
