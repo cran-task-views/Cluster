@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@R-project.org">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2020-12-12</version>
+<version>2021-05-11</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -271,10 +271,6 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>AdMit</pkg> allows to fit an adaptive mixture of Student-t
   distributions to approximate a target density through its kernel
   function.</li>
-  <li>Package <pkg>CEC</pkg> uses cross-entropy clustering to
-  automatically remove unnecessary clusters, while at the same time
-  allowing the simultaneous use of various types of Gaussian mixture
-  models.</li>
   <li>Circular and orthogonal regression clustering using redescending
   M-estimators is provided by package <pkg>edci</pkg>.</li>
 </ul>
@@ -462,7 +458,6 @@ of each package to check under which license it is distributed.</p>
 <pkg>bmixture</pkg>
 <pkg>cba</pkg>
 <pkg>cclust</pkg>
-<pkg>CEC</pkg>
 <pkg>CHsharp</pkg>
 <pkg>clue</pkg>
 <pkg priority="core">cluster</pkg>
