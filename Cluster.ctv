@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@R-project.org">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2021-05-11</version>
+<version>2021-06-04</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -53,6 +53,14 @@ of each package to check under which license it is distributed.</p>
   the classification of ordination scores from isometric feature
   mapping. The classification is performed either as a hierarchical,
   divisive method or as non-hierarchical partitioning.</li>
+  <li>Package <pkg>mdendro</pkg> provides an alternative
+  implementation of agglomerative hierarchical clustering. 
+  The package natively handles similarity matrices,
+  calculates variable-group dendrograms, which solve the
+  non-uniqueness problem that arises when there are ties in the data,
+  and calculates five descriptors for the final dendrogram: cophenetic
+  correlation coefficient, space distortion ratio, agglomerative
+  coefficient, chaining coefficient, and tree balance.</li>
   <li>The package <pkg>protoclust</pkg> implements a form of
   hierarchical clustering that associates a prototypical element with
   each interior node of the dendrogram.  Using the package's
@@ -509,6 +517,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>lcmm</pkg>
 <pkg>mcclust</pkg>
 <pkg priority="core">mclust</pkg>
+<pkg>mdendro</pkg>
 <pkg>MetabolAnalyze</pkg>
 <pkg>mixsmsn</pkg>
 <pkg>mixAK</pkg>
