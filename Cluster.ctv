@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@R-project.org">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2021-06-04</version>
+<version>2021-06-15</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -192,6 +192,14 @@ of each package to check under which license it is distributed.</p>
   and allowing for missing observations. The package accesses the
   clustering part of the Statistical ToolKit <a
   href="https://www.stkpp.org/">STK++</a>.  </li>
+  <li>Package <pkg>mixR</pkg> performs maximum likelihood estimation
+  of finite mixture models for raw or binned data for families
+  including Normal, Weibull, Gamma and Lognormal using the EM
+  algorithm, together with the Newton-Raphson algorithm or the
+  bisection method when necessary. The package also provides
+  information criteria or the bootstrap likelihood ratio test for
+  model selection and the model fitting process is accelerated using
+  package Rcpp.</li>
   <li><pkg>mixtools</pkg> provides fitting with the EM algorithm for
   parametric and non-parametric (multivariate) mixtures. Parametric
   mixtures include mixtures of multinomials, multivariate normals,
@@ -524,6 +532,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>MixAll</pkg>
 <pkg>mixdist</pkg>
 <pkg>mixPHM</pkg>
+<pkg>mixR</pkg>
 <pkg>mixRasch</pkg>
 <pkg>mixreg</pkg>
 <pkg>MixSim</pkg>
