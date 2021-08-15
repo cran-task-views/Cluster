@@ -3,7 +3,7 @@
 <name>Cluster</name>
 <topic>Cluster Analysis &amp; Finite Mixture Models</topic>
 <maintainer email="Bettina.Gruen@R-project.org">Friedrich Leisch, Bettina Gruen</maintainer>
-<version>2021-06-15</version>
+<version>2021-08-15</version>
   
 <info> <p>This CRAN Task View contains a list of packages that can be
 used for finding groups in data and modeling unobserved
@@ -406,8 +406,6 @@ of each package to check under which license it is distributed.</p>
 
 <p><strong>Additional Functionality:</strong></p>
 <ul>
-  <li>Mixtures of univariate normal distributions can be printed
-  and plotted using package <pkg>nor1mix</pkg>.</li>
   <li>Package <pkg>clusterGeneration</pkg> contains functions for
   generating random clusters and random covariance/correlation
   matrices, calculating a separation index (data and population
@@ -434,6 +432,12 @@ of each package to check under which license it is distributed.</p>
   model-based clustering of continuous, count, categorical or
   mixed-type data with missing values where the models used impose a
   conditional independence assumption given group membership.</li>
+  <li>Package <pkg>factoextra</pkg> provides some easy-to-use
+  functions to extract and visualize the output of multivariate data
+  analyses in general including also heuristic and model-based cluster
+  analysis. The package also contains functions for simplifying some
+  cluster analysis steps and uses <pkg>ggplot2</pkg>-based
+  visualization.</li>
   <li>Functionality to compare the similarity between two cluster
   solutions is provided by <code>cluster.stats()</code> in package
   <pkg>fpc</pkg>.</li>
@@ -446,6 +450,8 @@ of each package to check under which license it is distributed.</p>
   <li>Package <pkg>NbClust</pkg> implements 30 different indices which
   evaluate the cluster structure and should help to determine on a
   suitable number of clusters.</li>
+  <li>Mixtures of univariate normal distributions can be printed
+  and plotted using package <pkg>nor1mix</pkg>.</li>
   <li>Package <pkg>seriation</pkg> provides <code>dissplot()</code> for
   visualizing dissimilarity matrices using seriation and matrix shading. 
   This also allows to inspect cluster quality by restricting objects 
@@ -500,6 +506,7 @@ of each package to check under which license it is distributed.</p>
 <pkg>EMCluster</pkg>
 <pkg>evclust</pkg>
 <pkg>FactoClass</pkg>
+<pkg>factoextra</pkg>
 <pkg>fastcluster</pkg>
 <pkg>fclust</pkg>
 <pkg>FCPS</pkg>
