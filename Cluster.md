@@ -3,34 +3,35 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2021-12-27
+version: 2021-12-28
 source: https://github.com/cran-task-views/Cluster/
 ---
 
 This CRAN Task View contains a list of packages that can be used for
 finding groups in data and modeling unobserved cross-sectional
-heterogeneity. Many packages provide functionality for more than one of
-the topics listed below, the section headings are mainly meant as quick
-starting points rather than an ultimate categorization. Except for
-packages stats and cluster (which ship with base R and hence are part of
-every R installation), each package is listed only once.
+heterogeneity. Many packages provide functionality for more than one
+of the topics listed below, the section headings are mainly meant as
+quick starting points rather than as an ultimate
+categorization. Except for packages stats and `r pkg("cluster", priority = "core")`
+(which essentially ship with base R and hence are part of every R
+installation), each package is listed only once.
 
-Most of the packages listed in this CRAN Task View, but not all are
-distributed under the GPL. Please have a look at the DESCRIPTION file of
-each package to check under which license it is distributed.
+Most of the packages listed in this view, but not all, are distributed
+under the GPL. Please have a look at the DESCRIPTION file of each
+package to check under which license it is distributed.
 
 ### Hierarchical Clustering:
 
 -   Functions `hclust()` from package stats and `agnes()` from
-    `r pkg("cluster", priority = "core")` are the primary
+    `r pkg("cluster")` are the primary
     functions for agglomerative hierarchical clustering, function
     `diana()` can be used for divisive hierarchical clustering. Faster
     alternatives to `hclust()` are provided by the packages
     `r pkg("fastcluster")` and
     `r pkg("flashClust")`.
--   Function `dendrogram()` from stats and associated methods can be
-    used for improved visualization for cluster dendrograms.
--   The `r pkg("dendextend")` package provides functions for
+-   Function `dendrogram()` from package stats and associated 
+    methods can be used for improved visualization for cluster dendrograms.
+-   Package `r pkg("dendextend")` provides functions for
     easy visualization (coloring labels and branches, etc.),
     manipulation (rotating, pruning, etc.) and comparison of dendrograms
     (tangelgrams with heuristics for optimal branch rotations, and tree
@@ -60,14 +61,14 @@ each package to check under which license it is distributed.
     final dendrogram: cophenetic correlation coefficient, space
     distortion ratio, agglomerative coefficient, chaining coefficient,
     and tree balance.
--   The package `r pkg("protoclust")` implements a form of
+-   Package `r pkg("protoclust")` implements a form of
     hierarchical clustering that associates a prototypical element with
     each interior node of the dendrogram. Using the package's `plot()`
     function, one can produce dendrograms that are prototype-labeled and
     are therefore easier to interpret.
--   `r pkg("pvclust")` is a package for assessing the
-    uncertainty in hierarchical cluster analysis. It provides
-    approximately unbiased p-values as well as bootstrap p-values.
+-   Package `r pkg("pvclust")` assesses the uncertainty in hierarchical
+    cluster analysis. It provides approximately unbiased p-values as
+    well as bootstrap p-values.
 
 ### Partitioning Clustering:
 
@@ -130,7 +131,7 @@ each package to check under which license it is distributed.
         probability, package `r pkg("bgmm")` provides
         belief-based and soft-label mixture modeling for mixtures of
         Gaussians with the EM algorithm.
-    -   `r pkg("EMCluster")` provides EM algorithms and
+    -   Package `r pkg("EMCluster")` provides EM algorithms and
         several efficient initialization methods for model-based
         clustering of finite mixture Gaussian distribution with
         unstructured dispersion in unsupervised as well as
@@ -199,7 +200,7 @@ each package to check under which license it is distributed.
         information criteria or the bootstrap likelihood ratio test for
         model selection and the model fitting process is accelerated
         using package Rcpp.
-    -   `r pkg("mixtools")` provides fitting with the EM
+    -   Package `r pkg("mixtools")` provides fitting with the EM
         algorithm for parametric and non-parametric (multivariate)
         mixtures. Parametric mixtures include mixtures of multinomials,
         multivariate normals, normals with repeated measures, Poisson
@@ -220,10 +221,10 @@ each package to check under which license it is distributed.
         implemented.
     -   Package `r pkg("movMF")` fits finite mixtures of von
         Mises-Fisher distributions with the EM algorithm.
-    -   `r pkg("mritc")` provides tools for classification
+    -   Package `r pkg("mritc")` provides tools for classification
         using normal mixture models and (higher resolution) hidden
         Markov normal mixture models fitted by various methods.
-    -   `r pkg("prabclus")` clusters a presence-absence
+    -   Package `r pkg("prabclus")` clusters a presence-absence
         matrix object by calculating an MDS from the distances, and
         applying maximum likelihood Gaussian mixtures clustering to the
         MDS points.
@@ -401,7 +402,7 @@ each package to check under which license it is distributed.
 -   Package `r pkg("mixreg")` fits mixtures of one-variable
     regressions and provides the bootstrap test for the number of
     components.
--   `r pkg("mixPHM")` fits mixtures of proportional hazard
+-   Package `r pkg("mixPHM")` fits mixtures of proportional hazard
     models with the EM algorithm.
 
 ### Additional Functionality:
