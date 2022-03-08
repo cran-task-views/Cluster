@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2021-12-28
+version: 2022-03-08
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -346,6 +346,9 @@ package to check under which license it is distributed.
     partitioning a data set.
 -   For graphs and networks model-based clustering approaches are
     implemented in `r pkg("latentnet")`.
+-   Package `r pkg("ORIClust")` provides order-restricted
+    information-based clustering, a cluster algorithm which has
+    specifically been developed for bioinformatics applications.
 -   Package `r pkg("pdfCluster")` provides tools to perform
     cluster analysis via kernel density estimation. Clusters are
     associated to the maximally connected components with estimated
@@ -372,11 +375,6 @@ package to check under which license it is distributed.
     hierarchical clustering, but also similar to finite mixture models.
 -   Self-organizing maps are available in package
     `r pkg("som")`.
--   Several packages provide cluster algorithms which have been
-    developed for bioinformatics applications. These packages include
-    `r pkg("FunCluster")` for profiling microarray
-    expression data and `r pkg("ORIClust")` for
-    order-restricted information-based clustering.
 
 ### Cluster-wise Regression:
 
