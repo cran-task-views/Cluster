@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2022-03-08
+version: 2022-08-06
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -288,8 +288,6 @@ package to check under which license it is distributed.
     -   Package `r pkg("AdMit")` allows to fit an adaptive
         mixture of Student-t distributions to approximate a target
         density through its kernel function.
-    -   Circular and orthogonal regression clustering using redescending
-        M-estimators is provided by package `r pkg("edci")`.
 
 ### Other Cluster Algorithms and Clustering Suites:
 
