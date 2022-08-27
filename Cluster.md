@@ -226,10 +226,7 @@ package to check under which license it is distributed.
         MDS points.
     -   Package `r pkg("psychomix")` estimates mixtures of
         the dichotomous Rasch model (via conditional ML) and the
-        Bradley-Terry model. Package `r pkg("mixRasch")`
-        estimates mixture Rasch models, including the dichotomous Rasch
-        model, the rating scale model, and the partial credit model with
-        joint maximum likelihood estimation.
+        Bradley-Terry model.
     -   Package `r pkg("rebmix")` implements the REBMIX
         algorithm to fit mixtures of conditionally independent normal,
         lognormal, Weibull, gamma, binomial, Poisson, Dirac or von Mises
