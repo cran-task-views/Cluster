@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2022-08-06
+version: 2022-08-27
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -49,10 +49,6 @@ package to check under which license it is distributed.
     The data can be visualized (and interacted with) in a built-in heat
     map, but also in GGobi dynamic interactive graphics (provided by
     rggobi), or base R plots.
--   Package `r pkg("isopam")` uses an algorithm which is
-    based on the classification of ordination scores from isometric
-    feature mapping. The classification is performed either as a
-    hierarchical, divisive method or as non-hierarchical partitioning.
 -   Package `r pkg("mdendro")` provides an alternative
     implementation of agglomerative hierarchical clustering. The package
     natively handles similarity matrices, calculates variable-group
