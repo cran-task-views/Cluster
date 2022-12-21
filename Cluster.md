@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2022-08-27
+version: 2022-12-21
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -244,8 +244,6 @@ package to check under which license it is distributed.
         the uni- and bivariate marginal densities.
     -   Package `r pkg("bayesmix")` provides Bayesian
         estimation using JAGS.
-    -   Package `r pkg("Bmix")` provides Bayesian Sampling
-        for stick-breaking mixtures.
     -   Package `r pkg("bmixture")` provides Bayesian
         estimation of finite mixtures of univariate Gamma and normal
         distributions.
