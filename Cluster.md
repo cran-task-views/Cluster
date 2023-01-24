@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2022-12-21
+version: 2023-01-24
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -217,9 +217,6 @@ package to check under which license it is distributed.
         implemented.
     -   Package `r pkg("movMF")` fits finite mixtures of von
         Mises-Fisher distributions with the EM algorithm.
-    -   Package `r pkg("mritc")` provides tools for classification
-        using normal mixture models and (higher resolution) hidden
-        Markov normal mixture models fitted by various methods.
     -   Package `r pkg("prabclus")` clusters a presence-absence
         matrix object by calculating an MDS from the distances, and
         applying maximum likelihood Gaussian mixtures clustering to the
