@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2023-01-24
+version: 2023-05-31
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -400,9 +400,6 @@ package to check under which license it is distributed.
     Gaussian components for prespecified levels of maximum and/or
     average overlaps. This model can be used to simulate data for
     studying the performance of cluster algorithms.
--   Package `r pkg("clusterCrit")` computes various
-    clustering validation or quality criteria and partition comparison
-    indices.
 -   For cluster validation package `r pkg("clusterRepro")`
     tests the reproducibility of a cluster. Package
     `r pkg("clv")` contains popular internal and external
