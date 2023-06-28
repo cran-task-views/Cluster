@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2023-05-31
+version: 2023-06-28
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -132,22 +132,14 @@ package to check under which license it is distributed.
         clustering of finite mixture Gaussian distribution with
         unstructured dispersion in unsupervised as well as
         semi-supervised learning situation.
-    -   Packages `r pkg("funHDDC")` and
-        `r pkg("funFEM")` implement model-based functional
-        data analysis. The `r pkg("funFEM")` package
-        implements the `r pkg("funFEM")` algorithm which
+    -   Package `r pkg("funFEM")` provides model-based functional data
+        analysis by implementing the funFEM algorithm which
         allows to cluster time series or, more generally, functional
         data. It is based on a discriminative functional mixture model
         which allows the clustering of the data in a unique and
         discriminative functional subspace. This model presents the
-        advantage to be parsimonious and can therefore handle long time
-        series. The `r pkg("funHDDC")` package implements
-        the funHDDC algorithm which allows the clustering of functional
-        data within group-specific functional subspaces. The funHDDC
-        algorithm is based on a functional mixture model which models
-        and clusters the data into group-specific functional subspaces.
-        The approach allows afterward meaningful interpretations by
-        looking at the group-specific functional curves.
+        advantage to be parsimonious and can therefore handle long
+        time series.
     -   Package `r pkg("GLDEX")` fits mixtures of
         generalized lambda distributions and for grouped conditional
         data package `r pkg("mixdist")` can be used.
