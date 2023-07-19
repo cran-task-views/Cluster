@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2023-06-28
+version: 2023-07-19
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -104,6 +104,9 @@ package to check under which license it is distributed.
     clustering by `specc`.
 -   Package `r pkg("kml")` provides k-means clustering
     specifically for longitudinal (joint) data.
+-   Package `r pkg("QuClu")` provides high-dimensional clustering
+    with potentially skew cluster-wise distributions representing
+    clusters by quantiles.
 -   Package `r pkg("skmeans")` allows spherical k-Means
     Clustering, i.e. k-means clustering with cosine similarity. It
     features several methods, including a genetic and a simple
@@ -209,6 +212,11 @@ package to check under which license it is distributed.
         implemented.
     -   Package `r pkg("movMF")` fits finite mixtures of von
         Mises-Fisher distributions with the EM algorithm.
+    -   Package `r pkg("otrimle")` performs robust cluster analysis
+        allowing for outliers and noise that cannot be fitted by any
+        cluster. The data are modeled by a mixture of Gaussian
+        distributions and a noise component, which is an improper
+        uniform distribution covering the whole Euclidean space.
     -   Package `r pkg("prabclus")` clusters a presence-absence
         matrix object by calculating an MDS from the distances, and
         applying maximum likelihood Gaussian mixtures clustering to the
