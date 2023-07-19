@@ -230,6 +230,11 @@ package to check under which license it is distributed.
         component densities as well as mixtures of multivariate normal
         component densities with unrestricted variance-covariance
         matrices.
+    -   Package `r pkg("RMixtComp")` performs clustering using mixture
+        models with heterogeneous data and partially missing data. The
+        mixture models are fitted using a SEM algorithm and the
+        package includes 8 models for real, categorical, counting,
+        functional and ranking data.
 -   Bayesian estimation:
     -   Bayesian estimation of finite mixtures of multivariate Gaussians
         is possible using package `r pkg("bayesm")`. The
