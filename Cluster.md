@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2023-07-19
+version: 2023-08-06
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -44,6 +44,9 @@ package to check under which license it is distributed.
     a variant of the single linkage method combining it with the Gini
     inequality measure to robustify the linkage method while retaining
     computational efficiency to allow for the use of larger data sets.
+-   Package `r pkg("hclust1d")` provides univariate agglomerative
+    hierarchical clustering for a comprehensive choice of linkage
+    functions based on an $O(n \log(n))$ algorithm implemented in C++.
 -   Package `r pkg("idendr0")` allows to interactively
     explore hierarchical clustering dendrograms and the clustered data.
     The data can be visualized (and interacted with) in a built-in heat
