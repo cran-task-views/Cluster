@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2023-11-24
+version: 2023-11-27
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -301,9 +301,6 @@ package to check under which license it is distributed.
     to find biclusters in two-dimensional data.
 -   Package `r pkg("cba")` implements clustering techniques
     for business analytics like "rock" and "proximus".
--   Package `r pkg("CHsharp")` clusters 3-dimensional data
-    into their local modes based on a convergent form of Choi and
-    Hall's (1999) data sharpening method.
 -   Package `r pkg("clue")` implements ensemble methods for
     both hierarchical and partitioning cluster methods.
 -   Package `r pkg("CoClust")` implements a cluster
