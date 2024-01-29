@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2023-11-27
+version: 2024-01-29
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -324,8 +324,6 @@ package to check under which license it is distributed.
     `r pkg("e1071")`. Further and more extensive tools for
     fuzzy clustering are available in package
     `r pkg("fclust")`.
--   Package `r pkg("FactoClass")` performs a combination of
-    factorial methods and cluster analysis.
 -   Package `r pkg("FCPS")` provides many conventional
     clustering algorithms with consistent input and output, several
     statistical approaches for the estimation of the number of clusters
