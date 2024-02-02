@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2024-01-29
+version: 2024-02-02
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -238,6 +238,13 @@ package to check under which license it is distributed.
         mixture models are fitted using a SEM algorithm and the
         package includes 8 models for real, categorical, counting,
         functional and ranking data.
+    -   Package `r pkg("stepmixr")` allows model-based clustering and
+        generalized mixture modeling (latent class/profile analysis) of
+        continuous and categorical data. In addition, the `r pkg("stepmixr")`
+        package provides multiple stepwise EM estimation methods (p. ex., 2-step,
+        BCH, and ML) for analyzing covariates and/or distal outcomes, handles
+        missing values through FIML, and allows inference in semi-supervised
+        and unsupervised settings with non-parametric bootstrapping.
 -   Bayesian estimation:
     -   Bayesian estimation of finite mixtures of multivariate Gaussians
         is possible using package `r pkg("bayesm")`. The
