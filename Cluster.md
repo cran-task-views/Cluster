@@ -239,18 +239,23 @@ package to check under which license it is distributed.
         package includes 8 models for real, categorical, counting,
         functional and ranking data.
     -   Package `r pkg("stepmixr")` is an interface for the Python
-        package 'StepMix', which allows for model-based clustering
-        and generalized mixture modeling (latent class/profile analysis)
-        of continuous and categorical data. In addition, the `r pkg("stepmixr")`
-        package provides multiple stepwise Expectation-Maximization
-        algorithms (e.g. 1-step, 2-step, 3-step Bolck-Croon-Hagenaars (BCH),
-        and maximum likelihood (ML)) for regressing the latent classes on
-        covariates (predictors) and/or predicting outcomes from the latent classes.
-        It handles missing values through Full Information Maximum Likelihood (FIML),
-        and allows inference in semi-supervised and unsupervised settings with non-parametric
-        bootstrapping. The package uses the `r pkg("reticulate")` package to interface
-        the 'StepMix' package in python. Stepmix must be installed in the python version used by `r pkg("reticulate")`.
-        This can be done inside the `r pkg("stepmixr")` or using the pip command (`pip install stepmix`).
+        package 'StepMix', which allows for model-based clustering and
+        generalized mixture modeling (latent class/profile analysis)
+        of continuous and categorical data. In addition, the
+		`r pkg("stepmixr")` package provides multiple stepwise
+        Expectation-Maximization algorithms (e.g. 1-step, 2-step,
+        3-step Bolck-Croon-Hagenaars (BCH), and maximum likelihood
+        (ML)) for regressing the latent classes on covariates
+        (predictors) and/or predicting outcomes from the latent
+        classes.  It handles missing values through Full Information
+        Maximum Likelihood (FIML), and allows inference in
+        semi-supervised and unsupervised settings with non-parametric
+        bootstrapping. The package uses the `r pkg("reticulate")`
+        package to interface the 'StepMix' package in
+        Python. 'Stepmix' must be installed in the Python version used
+        by `r pkg("reticulate")`.  This can be done inside the
+		`r pkg("stepmixr")` package or using the pip command (`pip
+        install stepmix`).
 
 -   Bayesian estimation:
     -   Bayesian estimation of finite mixtures of multivariate Gaussians
