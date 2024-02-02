@@ -241,7 +241,7 @@ package to check under which license it is distributed.
     -   Package `r pkg("stepmixr")` allows model-based clustering and
         generalized mixture modeling (latent class/profile analysis) of
         continuous and categorical data. In addition, the `r pkg("stepmixr")`
-        package provides multiple stepwise EM estimation methods (p. ex., 2-step,
+        package provides multiple stepwise EM estimation methods (e.g. 2-step,
         BCH, and ML) for analyzing covariates and/or distal outcomes, handles
         missing values through FIML, and allows inference in semi-supervised
         and unsupervised settings with non-parametric bootstrapping.
