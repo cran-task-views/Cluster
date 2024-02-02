@@ -250,7 +250,7 @@ package to check under which license it is distributed.
         and allows inference in semi-supervised and unsupervised settings with non-parametric
         bootstrapping. The package uses the `r pkg("reticulate")` package to interface
         the 'StepMix' package in python. Stepmix must be installed in the python version used by `r pkg("reticulate")`.
-        This can be done inside the `r pkg("stepmixr")` or using the pip command `python pip install stepmix`)
+        This can be done inside the `r pkg("stepmixr")` or using the pip command (`pip install stepmix`).
 
 -   Bayesian estimation:
     -   Bayesian estimation of finite mixtures of multivariate Gaussians
