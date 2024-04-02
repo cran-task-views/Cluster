@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2024-02-02
+version: 2024-04-02
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -180,12 +180,6 @@ package to check under which license it is distributed.
         algorithm.
     -   For grouped conditional data package
         `r pkg("mixdist")` can be used.
-    -   Package `r pkg("MixAll")` provides EM estimation of
-        diagonal Gaussian, gamma, Poisson and categorical mixtures
-        combined based on the conditional independence assumption using
-        different EM variants and allowing for missing observations. The
-        package accesses the clustering part of the Statistical ToolKit
-        [STK++](https://www.stkpp.org/).
     -   Package `r pkg("mixR")` performs maximum likelihood
         estimation of finite mixture models for raw or binned data for
         families including Normal, Weibull, Gamma and Lognormal using
