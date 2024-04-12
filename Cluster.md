@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2024-04-02
+version: 2024-04-12
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -419,6 +419,12 @@ package to check under which license it is distributed.
 -   Package `r pkg("clusterCrit")` computes various
     clustering validation or quality criteria and partition comparison
     indices.
+-   Package `r pkg("clusterMI")` provides tools to cluster incomplete
+    observations by addressing the missing values issue using multiple
+    imputation. The package supports different imputation methods, six
+    clustering methods (distances-based or model-based) as well as the
+    use of custom methods and partition pooling via a non-negative
+	matrix factorization based method.
 -   For cluster validation package `r pkg("clusterRepro")`
     tests the reproducibility of a cluster. Package
     `r pkg("clv")` contains popular internal and external
