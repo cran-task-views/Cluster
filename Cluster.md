@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Friedrich Leisch, Bettina Gruen
 email: Bettina.Gruen@R-project.org
-version: 2024-04-12
+version: 2024-05-13
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -399,9 +399,6 @@ package to check under which license it is distributed.
 -   Package `r pkg("lcmm")` fits a latent class linear mixed
     model which is also known as growth mixture model or heterogeneous
     linear mixed model using a maximum likelihood method.
--   Package `r pkg("mixreg")` fits mixtures of one-variable
-    regressions and provides the bootstrap test for the number of
-    components.
 -   Package `r pkg("mixPHM")` fits mixtures of proportional hazard
     models with the EM algorithm.
 
