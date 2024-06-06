@@ -1,24 +1,27 @@
 ---
 name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
-maintainer: Friedrich Leisch, Bettina Gruen
+maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2024-05-13
+version: 2024-06-07
 source: https://github.com/cran-task-views/Cluster/
 ---
 
 This CRAN Task View contains a list of packages that can be used for
-finding groups in data and modeling unobserved cross-sectional
-heterogeneity. Many packages provide functionality for more than one
-of the topics listed below, the section headings are mainly meant as
-quick starting points rather than as an ultimate
-categorization. Except for packages stats and `r pkg("cluster", priority = "core")`
-(which essentially ship with base R and hence are part of every R
-installation), each package is listed only once.
+finding groups in data and modeling unobserved heterogeneity. Many
+packages provide functionality for more than one of the topics listed
+below, the section headings are mainly meant as quick starting points
+rather than as an ultimate categorization. Except for packages stats
+and `r pkg("cluster", priority = "core")` (which essentially ship with
+base R and hence are part of every R installation), each package is
+listed only once.
 
 Most of the packages listed in this view, but not all, are distributed
 under the GPL. Please have a look at the DESCRIPTION file of each
 package to check under which license it is distributed.
+
+The first version of this CRAN Task View was written by Friedrich
+Leisch who also served as its first maintainer.
 
 ### Hierarchical Clustering:
 
