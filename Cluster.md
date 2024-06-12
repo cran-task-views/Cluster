@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2024-06-07
+version: 2024-06-12
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -351,6 +351,13 @@ Leisch who also served as its first maintainer.
     partitioning a data set.
 -   For graphs and networks model-based clustering approaches are
     implemented in `r pkg("latentnet")`.
+-   Package `r pkg("mlr3cluster")` extends the machine learning
+    toolbox package mlr3 which provides efficient, object-oriented
+    programming on the building blocks of machine learning. The
+    package contains a selection of 24 clustering learners that
+    represent a wide variety of clusterers (partitional, hierarchical,
+    fuzzy, etc.), a selection of 4 performance measures and two
+    built-in tasks to get started with clustering.
 -   Package `r pkg("ORIClust")` provides order-restricted
     information-based clustering, a cluster algorithm which has
     specifically been developed for bioinformatics applications.
