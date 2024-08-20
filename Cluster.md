@@ -310,7 +310,7 @@ Leisch who also served as its first maintainer.
     local density value. The cluster centroids of this non-iterative
     procedure can be selected using an interactive or automatic
     selection mode.
--   Package `r pkg("adproclust")` provides the Additive Profile
+-   Package `r pkg("adproclus")` provides the Additive Profile
 	Clustering (ADPROCLUS) method as well as the low-dimensional
 	ADPROCLUS method, which allows for simultaneous dimension
 	reduction, to obtain overlapping clustering models for
