@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2024-06-12
+version: 2024-08-20
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -310,6 +310,11 @@ Leisch who also served as its first maintainer.
     local density value. The cluster centroids of this non-iterative
     procedure can be selected using an interactive or automatic
     selection mode.
+-   Package `r pkg("adproclust")` provides the Additive Profile
+	Clustering (ADPROCLUS) method as well as the low-dimensional
+	ADPROCLUS method, which allows for simultaneous dimension
+	reduction, to obtain overlapping clustering models for
+	object-by-variable data matrices.
 -   Package `r pkg("amap")` provides alternative
     implementations of k-means and agglomerative hierarchical
     clustering.
