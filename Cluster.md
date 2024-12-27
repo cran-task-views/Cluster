@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2024-08-20
+version: 2024-12-27
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -99,6 +99,9 @@ Leisch who also served as its first maintainer.
     algorithms that produce a credal partition, i.e., a set of
     Dempster-Shafer mass functions representing the membership of
     objects to clusters.
+-   Package `r pkg("FPDclustering")` implements a fuzzy version of
+    probabilistic distance clustering (PD-clustering) and extensions
+    thereof.
 -   Package `r pkg("flexclust", priority = "core")` provides
     k-centroid cluster algorithms for arbitrary distance measures, hard
     competitive learning, neural gas and QT clustering. Neighborhood
@@ -118,6 +121,8 @@ Leisch who also served as its first maintainer.
     features several methods, including a genetic and a simple
     fixed-point algorithm and an interface to the CLUTO vcluster program
     for clustering high-dimensional datasets.
+-   Package `r pkg("SpectralClMixed")` performs spectral clustering on
+    mixed-typed data.
 -   Package `r pkg("Spectrum")` implements a self-tuning
     spectral clustering method for single or multi-view data and uses
     either the eigengap or multimodality gap heuristics to determine the
@@ -158,9 +163,6 @@ Leisch who also served as its first maintainer.
         `hddc` to fit Gaussian mixture model to high-dimensional data
         where it is assumed that the data lives in a lower dimension
         than the original space.
-    -   Package `r pkg("teigen")` allows to fit multivariate
-        t-distribution mixture models (with eigen-decomposed covariance
-        structure) from a clustering or classification point of view.
     -   Package `r pkg("mclust", priority = "core")` fits
         mixtures of Gaussians using the EM algorithm. It allows fine
         control of volume and shape of covariance matrices and
@@ -183,6 +185,10 @@ Leisch who also served as its first maintainer.
         algorithm.
     -   For grouped conditional data package
         `r pkg("mixdist")` can be used.
+    -   Package `r pkg("MixGHD")` carries out flexible model-based
+        clustering, classification, and discriminant analysis using
+        five different models based on the generalized hyperbolic
+        distribution.
     -   Package `r pkg("mixR")` performs maximum likelihood
         estimation of finite mixture models for raw or binned data for
         families including Normal, Weibull, Gamma and Lognormal using
@@ -191,6 +197,9 @@ Leisch who also served as its first maintainer.
         information criteria or the bootstrap likelihood ratio test for
         model selection and the model fitting process is accelerated
         using package Rcpp.
+    -   Fitting finite mixtures of uni- and multivariate scale mixtures
+        of skew-normal distributions with the EM algorithm is provided
+        by package `r pkg("mixsmsn")`.
     -   Package `r pkg("mixtools")` provides fitting with the EM
         algorithm for parametric and non-parametric (multivariate)
         mixtures. Parametric mixtures include mixtures of multinomials,
@@ -201,9 +210,9 @@ Leisch who also served as its first maintainer.
         multivariate non-parametric mixtures with conditional
         independent assumption. In addition fitting mixtures of Gaussian
         regressions with the Metropolis-Hastings algorithm is available.
-    -   Fitting finite mixtures of uni- and multivariate scale mixtures
-        of skew-normal distributions with the EM algorithm is provided
-        by package `r pkg("mixsmsn")`.
+    -   Package `r pkg("MixtureMissing")` implements various robust
+        and flexible model-based clustering methods for data sets with
+        missing values at random.
     -   Package `r pkg("MoEClust")` fits parsimonious finite
         multivariate Gaussian mixtures of experts models via the EM
         algorithm. Covariates may influence the mixing proportions
@@ -212,6 +221,9 @@ Leisch who also served as its first maintainer.
         implemented.
     -   Package `r pkg("movMF")` fits finite mixtures of von
         Mises-Fisher distributions with the EM algorithm.
+    -   Package `r pkg("MSclust")` implements mixtures of multiple
+        scaled distributions, specifically mixtures of t and the
+        contaminated normal distribution.
     -   Package `r pkg("otrimle")` performs robust cluster analysis
         allowing for outliers and noise that cannot be fitted by any
         cluster. The data are modeled by a mixture of Gaussian
@@ -253,6 +265,9 @@ Leisch who also served as its first maintainer.
         by `r pkg("reticulate")`.  This can be done inside the
 		`r pkg("stepmixr")` package or using the pip command (`pip
         install stepmix`).
+    -   Package `r pkg("teigen")` allows to fit multivariate
+        t-distribution mixture models (with eigen-decomposed covariance
+        structure) from a clustering or classification point of view.
 
 -   Bayesian estimation:
     -   Bayesian estimation of finite mixtures of multivariate Gaussians
