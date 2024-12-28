@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2024-12-27
+version: 2024-12-28
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -99,9 +99,9 @@ Leisch who also served as its first maintainer.
     algorithms that produce a credal partition, i.e., a set of
     Dempster-Shafer mass functions representing the membership of
     objects to clusters.
--   Package `r pkg("FPDclustering")` implements a fuzzy version of
-    probabilistic distance clustering (PD-clustering) and extensions
-    thereof.
+-   Package `r pkg("FPDclustering")` implements probabilistic distance
+    clustering (PD-clustering), a fuzzy clustering method, and some
+    extensions.
 -   Package `r pkg("flexclust", priority = "core")` provides
     k-centroid cluster algorithms for arbitrary distance measures, hard
     competitive learning, neural gas and QT clustering. Neighborhood
@@ -223,7 +223,7 @@ Leisch who also served as its first maintainer.
         Mises-Fisher distributions with the EM algorithm.
     -   Package `r pkg("MSclust")` implements mixtures of multiple
         scaled distributions, specifically mixtures of t and the
-        contaminated normal distribution.
+        contaminated normal distributions.
     -   Package `r pkg("otrimle")` performs robust cluster analysis
         allowing for outliers and noise that cannot be fitted by any
         cluster. The data are modeled by a mixture of Gaussian
