@@ -222,7 +222,7 @@ Leisch who also served as its first maintainer.
     -   Package `r pkg("movMF")` fits finite mixtures of von
         Mises-Fisher distributions with the EM algorithm.
     -   Package `r pkg("MSclust")` implements mixtures of multiple
-        scaled distributions, specifically mixtures of t and the
+        scaled distributions, specifically mixtures of t and
         contaminated normal distributions.
     -   Package `r pkg("otrimle")` performs robust cluster analysis
         allowing for outliers and noise that cannot be fitted by any
