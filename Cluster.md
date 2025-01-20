@@ -344,10 +344,6 @@ Leisch who also served as its first maintainer.
     group observations according to the multivariate dependence
     structure of the generating process without any assumptions on the
     margins.
--   Package `r pkg("compHclust")` provides complimentary
-    hierarchical clustering which was especially designed for microarray
-    data to uncover structures present in the data that arise from
-    'weak' genes.
 -   Package `r pkg("DatabionicSwarm")` implements a swarm
     system called Databionic swarm (DBS) for self-organized clustering.
     This method is able to adapt itself to structures of
