@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2024-12-28
+version: 2025-01-20
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -413,9 +413,9 @@ Leisch who also served as its first maintainer.
 -   Package `r pkg("crimCV")` fits finite mixtures of
     zero-inflated Poisson models for longitudinal data with time as
     covariate.
--   Multigroup mixtures of latent Markov models on mixed categorical and
-    continuous data (including time series) can be fitted using
-    `r pkg("depmix")` or `r pkg("depmixS4")`.
+-   Multigroup mixtures of latent Markov models on mixed categorical
+    and continuous data (including time series) can be fitted using `r
+    pkg("depmixS4")`.
     The parameters are optimized using a general purpose optimization
     routine given linear and nonlinear constraints on the parameters.
 -   Package `r pkg("flexmix", priority = "core")` implements
