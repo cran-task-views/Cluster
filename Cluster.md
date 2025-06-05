@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2025-01-20
+version: 2025-06-05
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -463,6 +463,9 @@ Leisch who also served as its first maintainer.
     for model-based clustering of continuous, count, categorical or
     mixed-type data with missing values where the models used impose a
     conditional independence assumption given group membership.
+-   Package `r pkg("dissimilarities")` efficiently creates,
+    manipulates, and subsets `"dist"` objects, commonly used in
+    cluster analysis.
 -   Package `r pkg("factoextra")` provides some easy-to-use
     functions to extract and visualize the output of multivariate data
     analyses in general including also heuristic and model-based cluster
