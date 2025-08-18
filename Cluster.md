@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2025-06-05
+version: 2025-08-18
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -95,10 +95,6 @@ Leisch who also served as its first maintainer.
     optimal clustering procedure for a given dataset.
 -   Package `r pkg("clustMixType")` implements Huang's
     k-prototypes extension of k-means for mixed type data.
--   Package `r pkg("evclust")` implements various clustering
-    algorithms that produce a credal partition, i.e., a set of
-    Dempster-Shafer mass functions representing the membership of
-    objects to clusters.
 -   Package `r pkg("FPDclustering")` implements probabilistic distance
     clustering (PD-clustering), a fuzzy clustering method, and some
     extensions.
@@ -455,14 +451,12 @@ Leisch who also served as its first maintainer.
     produced by functions from package `r pkg("cluster")`
     and `r pkg("clValid")` calculates several stability
     measures.
--   Package `r pkg("clustvarsel")` provides variable
-    selection for Gaussian model-based clustering. Variable selection
-    for latent class analysis for clustering multivariate categorical
-    data is implemented in package `r pkg("LCAvarsel")`.
-    Package `r pkg("VarSelLCM")` provides variable selection
-    for model-based clustering of continuous, count, categorical or
-    mixed-type data with missing values where the models used impose a
-    conditional independence assumption given group membership.
+-   Package `r pkg("clustvarsel")` provides variable selection for
+    Gaussian model-based clustering. Package `r pkg("VarSelLCM")`
+    provides variable selection for model-based clustering of
+    continuous, count, categorical or mixed-type data with missing
+    values where the models used impose a conditional independence
+    assumption given group membership.
 -   Package `r pkg("dissimilarities")` efficiently creates,
     manipulates, and subsets `"dist"` objects, commonly used in
     cluster analysis.
