@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2025-08-18
+version: 2025-09-19
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -486,6 +486,9 @@ Leisch who also served as its first maintainer.
     order.
 -   Package `r pkg("sigclust")` provides a statistical
     method for testing the significance of clustering results.
+-   Package `r pkg("Silhouette")` provides tools to support cluster
+    diagnostics by quanitifying cluster quality based on advanced
+    silhouette width for diverse clustering structures.
 -   Package `r pkg("treeClust")` calculates dissimilarities
     between data points based on their leaf memberships in regression or
     classification trees for each variable. It also performs the cluster
