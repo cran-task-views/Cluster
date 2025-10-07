@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2025-09-22
+version: 2025-10-07
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -396,6 +396,9 @@ Leisch who also served as its first maintainer.
     `r pkg("BayesLCA")` allows to fit Bayesian LCA models
     employing the EM algorithm, Gibbs sampling or variational Bayes
     methods.
+-   Package `r pkg("Rmfrac")` provides tools to perform hierarchical
+    and k-means clustering of realizations of stochastic processes and
+    time series based on their estimated Hurst functions.
 -   Package `r pkg("RPMM")` fits recursively partitioned
     mixture models for Beta and Gaussian Mixtures. This is a model-based
     clustering algorithm that returns a hierarchy of classes, similar to
