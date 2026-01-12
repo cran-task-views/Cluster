@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2025-10-07
+version: 2026-01-12
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -463,6 +463,8 @@ Leisch who also served as its first maintainer.
     continuous, count, categorical or mixed-type data with missing
     values where the models used impose a conditional independence
     assumption given group membership.
+-   Package `r pkg("DBCVindex")` provides the density-based clustering
+    validation (DBCV) index to evaluate clustering results.
 -   Package `r pkg("dissimilarities")` efficiently creates,
     manipulates, and subsets `"dist"` objects, commonly used in
     cluster analysis.
