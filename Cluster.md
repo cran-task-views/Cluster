@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-01-12
+version: 2026-02-19
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -332,8 +332,6 @@ Leisch who also served as its first maintainer.
 -   Package `r pkg("amap")` provides alternative
     implementations of k-means and agglomerative hierarchical
     clustering.
--   Package `r pkg("biclust")` provides several algorithms
-    to find biclusters in two-dimensional data.
 -   Package `r pkg("cba")` implements clustering techniques
     for business analytics like "rock" and "proximus".
 -   Package `r pkg("clue")` implements ensemble methods for
