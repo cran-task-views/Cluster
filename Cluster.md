@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-02-19
+version: 2026-03-19
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -449,12 +449,7 @@ Leisch who also served as its first maintainer.
     use of custom methods and partition pooling via a non-negative
 	matrix factorization based method.
 -   For cluster validation package `r pkg("clusterRepro")`
-    tests the reproducibility of a cluster. Package
-    `r pkg("clv")` contains popular internal and external
-    cluster validation methods ready to use for most of the outputs
-    produced by functions from package `r pkg("cluster")`
-    and `r pkg("clValid")` calculates several stability
-    measures.
+    tests the reproducibility of a cluster.
 -   Package `r pkg("clustvarsel")` provides variable selection for
     Gaussian model-based clustering. Package `r pkg("VarSelLCM")`
     provides variable selection for model-based clustering of
