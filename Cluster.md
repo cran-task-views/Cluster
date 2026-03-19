@@ -107,8 +107,6 @@ Leisch who also served as its first maintainer.
 -   Package `r pkg("kernlab")` provides a weighted kernel
     version of the k-means algorithm by `kkmeans` and spectral
     clustering by `specc`.
--   Package `r pkg("kml")` provides k-means clustering
-    specifically for longitudinal (joint) data.
 -   Package `r pkg("QuClu")` provides high-dimensional clustering
     with potentially skew cluster-wise distributions representing
     clusters by quantiles.
