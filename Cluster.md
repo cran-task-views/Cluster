@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-03-19
+version: 2026-05-04
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -315,13 +315,6 @@ Leisch who also served as its first maintainer.
 
 ### Other Cluster Algorithms and Clustering Suites:
 
--   Package `r pkg("ADPclust")` allows to cluster high
-    dimensional data based on a two dimensional decision plot. This
-    density-distance plot plots for each data point the local density
-    against the shortest distance to all observations with a higher
-    local density value. The cluster centroids of this non-iterative
-    procedure can be selected using an interactive or automatic
-    selection mode.
 -   Package `r pkg("adproclus")` provides the Additive Profile
 	Clustering (ADPROCLUS) method as well as the low-dimensional
 	ADPROCLUS method, which allows for simultaneous dimension
