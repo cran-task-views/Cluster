@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-05-04
+version: 2026-06-01
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -362,9 +362,6 @@ Leisch who also served as its first maintainer.
     represent a wide variety of clusterers (partitional, hierarchical,
     fuzzy, etc.), a selection of 4 performance measures and two
     built-in tasks to get started with clustering.
--   Package `r pkg("ORIClust")` provides order-restricted
-    information-based clustering, a cluster algorithm which has
-    specifically been developed for bioinformatics applications.
 -   Package `r pkg("pdfCluster")` provides tools to perform
     cluster analysis via kernel density estimation. Clusters are
     associated to the maximally connected components with estimated
