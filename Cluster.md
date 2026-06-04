@@ -126,6 +126,9 @@ Leisch who also served as its first maintainer.
 -   Package `r pkg("tclust")` allows for trimmed k-means
     clustering. In addition using this package other covariance
     structures can also be specified for the clusters.
+-   Package `r pkg("fussclust")` provides fuzzy and possibilistic 
+    partition-based clustering algorithms, including semi-supervised 
+	variants that incorporate partial class-label information.
 
 ### Model-Based Clustering:
 
