@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-06-01
+version: 2026-06-09
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -104,6 +104,9 @@ Leisch who also served as its first maintainer.
     graphs and image plots of partitions are available for
     visualization. Some of this functionality is also provided by
     package `r pkg("cclust")`.
+-   Package `r pkg("fussclust")` provides fuzzy and possibilistic 
+    partition-based clustering algorithms, including semi-supervised 
+	variants that incorporate partial class-label information.   
 -   Package `r pkg("kernlab")` provides a weighted kernel
     version of the k-means algorithm by `kkmeans` and spectral
     clustering by `specc`.
@@ -126,9 +129,6 @@ Leisch who also served as its first maintainer.
 -   Package `r pkg("tclust")` allows for trimmed k-means
     clustering. In addition using this package other covariance
     structures can also be specified for the clusters.
--   Package `r pkg("fussclust")` provides fuzzy and possibilistic 
-    partition-based clustering algorithms, including semi-supervised 
-	variants that incorporate partial class-label information.
 
 ### Model-Based Clustering:
 
