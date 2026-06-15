@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-06-09
+version: 2026-06-15
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -133,11 +133,6 @@ Leisch who also served as its first maintainer.
 ### Model-Based Clustering:
 
 -   ML estimation:
-    -   For semi- or partially supervised problems, where for a part of
-        the observations labels are given with certainty or with some
-        probability, package `r pkg("bgmm")` provides
-        belief-based and soft-label mixture modeling for mixtures of
-        Gaussians with the EM algorithm.
     -   Package `r pkg("clustMD")` provides model-based clustering of
         mixed data using a parsimonious mixture of latent Gaussian
         variable models.
