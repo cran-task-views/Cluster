@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-06-15
+version: 2026-07-25
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -458,6 +458,13 @@ Leisch who also served as its first maintainer.
 -   The stability of k-centroid clustering solutions fitted using
     functions from package `r pkg("flexclust")` can also be
     validated via `bootFlexclust()` using bootstrap methods.
+-   Package `r pkg("matchednull")` generates null data sets using a
+	Gaussian or t copula which preserving the marginal distribution
+	and the correlation structure of the data but without cluster
+	structure and compares a scalar statistic obtained from an
+	arbitrary user-supplied clustering pipeline, e.g., the selected
+	number of clusters, for the observed data to those of the null
+	data sets.
 -   Package `r pkg("MOCCA")` provides methods to analyze
     cluster alternatives based on multi-objective optimization of
     cluster validation indices.
