@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-07-25
+version: 2026-10-09
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -442,6 +442,12 @@ Leisch who also served as its first maintainer.
     continuous, count, categorical or mixed-type data with missing
     values where the models used impose a conditional independence
     assumption given group membership.
+-   Package `r pkg("cmahalanobis")` provides functions to calculate
+	pairwise distances (Mahalanobis, Euclidean, Manhattan, Chebyshev,
+	Hamming, Canberra, Minkowski, Jaccard, Hellinger) and
+	dissimilarity measures (Minkowski, Cosine, Bhattacharyya,
+	Bray-Curtis dissimilarity, Sorensen-Dice) for grouped
+	observations.
 -   Package `r pkg("DBCVindex")` provides the density-based clustering
     validation (DBCV) index to evaluate clustering results.
 -   Package `r pkg("dissimilarities")` efficiently creates,
