@@ -413,6 +413,12 @@ Leisch who also served as its first maintainer.
     linear mixed model using a maximum likelihood method.
 -   Package `r pkg("mixPHM")` fits mixtures of proportional hazard
     models with the EM algorithm.
+-   Package `r pkg("RprobitB")` fits Bayesian probit models for
+    binary, multinomial, ordered, and ranked choices with latent
+    classes of deciders, which have class-specific coefficients or
+    class-specific normal distributions of random coefficients. The
+    number of classes is fixed, selected by a sparse finite mixture,
+    or inferred by a Dirichlet process mixture, using Gibbs sampling.
 
 ### Additional Functionality:
 
