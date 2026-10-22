@@ -3,7 +3,7 @@ name: Cluster
 topic: Cluster Analysis & Finite Mixture Models
 maintainer: Bettina Grün
 email: Bettina.Gruen@R-project.org
-version: 2026-10-09
+version: 2026-10-22
 source: https://github.com/cran-task-views/Cluster/
 ---
 
@@ -415,7 +415,7 @@ Leisch who also served as its first maintainer.
     models with the EM algorithm.
 -   Package `r pkg("RprobitB")` fits Bayesian probit models for
     binary, multinomial, ordered, and ranked choices with latent
-    classes of deciders, which have class-specific coefficients or
+    classes of deciders having class-specific coefficients or
     class-specific normal distributions of random coefficients. The
     number of classes is fixed, selected by a sparse finite mixture,
     or inferred by a Dirichlet process mixture, using Gibbs sampling.
